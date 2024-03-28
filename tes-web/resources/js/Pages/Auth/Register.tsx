@@ -4,11 +4,12 @@ import InputError from "@/Components/InputError";
 import InputLabel from "@/Components/InputLabel";
 import PrimaryButton from "@/Components/PrimaryButton";
 import TextInput from "@/Components/TextInput";
-import { Head, Link, useForm } from "@inertiajs/react";
+import { Head, useForm } from "@inertiajs/react";
 
 export default function Register() {
   const { data, setData, post, processing, errors, reset } = useForm({
-    name: "",
+    firstname: "",
+    lastname: "",
     email: "",
     password: "",
     password_confirmation: "",
@@ -38,21 +39,39 @@ export default function Register() {
       </div>
 
       <form onSubmit={submit} className="mt-8">
-        <div>
-          <InputLabel htmlFor="name" value="Nom" />
+        <div className="flex w-full justify-between space-x-4">
+          <div className="w-full">
+            <InputLabel htmlFor="firstname" value="Prénom" />
 
-          <TextInput
-            id="name"
-            name="name"
-            value={data.name}
-            className="mt-1 block w-full"
-            autoComplete="name"
-            isFocused={true}
-            onChange={(e) => setData("name", e.target.value)}
-            required
-          />
+            <TextInput
+              id="firstname"
+              name="firstname"
+              value={data.firstname}
+              className="mt-1 block w-full"
+              autoComplete="name"
+              isFocused={true}
+              onChange={(e) => setData("firstname", e.target.value)}
+              required
+            />
 
-          <InputError message={errors.name} className="mt-2" />
+            <InputError message={errors.firstname} className="mt-2" />
+          </div>
+          <div className="w-full">
+            <InputLabel htmlFor="lastname" value="Nom" />
+
+            <TextInput
+              id="lastname"
+              name="lastname"
+              value={data.lastname}
+              className="mt-1 block w-full"
+              autoComplete="name"
+              isFocused={true}
+              onChange={(e) => setData("lastname", e.target.value)}
+              required
+            />
+
+            <InputError message={errors.lastname} className="mt-2" />
+          </div>
         </div>
 
         <div className="mt-4">

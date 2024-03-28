@@ -1,6 +1,7 @@
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 import { Head } from "@inertiajs/react";
 import { PageProps } from "@/types";
+import Countdown from "./Partials/Countdown";
 
 export default function Dashboard({ auth }: PageProps) {
   return (
@@ -14,8 +15,10 @@ export default function Dashboard({ auth }: PageProps) {
     >
       <Head title="Dashboard" />
 
-      <div className="py-12">
-        <h1>Dashboard</h1>
+      <div className="h-[80vh] w-screen flex items-center justify-center">
+        <div className="text-center p-10">
+          <Countdown />
+        </div>
       </div>
     </AuthenticatedLayout>
   );

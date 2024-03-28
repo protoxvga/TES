@@ -1,8 +1,6 @@
 <?php
 
-use Illuminate\Foundation\Inspiring;
-use Illuminate\Support\Facades\Artisan;
-
-Artisan::command('inspire', function () {
-    $this->comment(Inspiring::quote());
-})->purpose('Display an inspiring quote')->hourly();
+use Illuminate\Support\Facades\Schedule;
+ 
+Schedule::command('app:create-survey')->weekdays()->at('22:53')->timezone('Europe/Paris');
+Schedule::command('app:close-survey')->weekdays()->at('22:54')->timezone('Europe/Paris');

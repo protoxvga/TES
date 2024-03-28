@@ -33,7 +33,7 @@ export default function Register() {
 
       <div className="sm:mx-auto sm:w-full sm:max-w-sm flex flex-col items-center">
         {/* <ApplicationLogo /> */}
-        <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+        <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-white">
           Créer un compte
         </h2>
       </div>

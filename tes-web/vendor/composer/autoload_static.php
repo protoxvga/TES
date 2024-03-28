@@ -618,6 +618,8 @@ class ComposerStaticInitb75c335bfb82e4033bd6ca32c89cd98a
     );
 
     public static $classMap = array (
+        'App\\Console\\Commands\\CloseSurvey' => __DIR__ . '/../..' . '/app/Console/Commands/CloseSurvey.php',
+        'App\\Console\\Commands\\CreateSurvey' => __DIR__ . '/../..' . '/app/Console/Commands/CreateSurvey.php',
         'App\\Http\\Controllers\\Auth\\AuthenticatedSessionController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/AuthenticatedSessionController.php',
         'App\\Http\\Controllers\\Auth\\ConfirmablePasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ConfirmablePasswordController.php',
         'App\\Http\\Controllers\\Auth\\EmailVerificationNotificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/EmailVerificationNotificationController.php',
@@ -632,7 +634,10 @@ class ComposerStaticInitb75c335bfb82e4033bd6ca32c89cd98a
         'App\\Http\\Middleware\\HandleInertiaRequests' => __DIR__ . '/../..' . '/app/Http/Middleware/HandleInertiaRequests.php',
         'App\\Http\\Requests\\Auth\\LoginRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Auth/LoginRequest.php',
         'App\\Http\\Requests\\ProfileUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ProfileUpdateRequest.php',
+        'App\\Models\\Restaurant' => __DIR__ . '/../..' . '/app/Models/Restaurant.php',
+        'App\\Models\\Survey' => __DIR__ . '/../..' . '/app/Models/Survey.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\Vote' => __DIR__ . '/../..' . '/app/Models/Vote.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',

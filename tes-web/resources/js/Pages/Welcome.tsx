@@ -8,7 +8,7 @@ export default function Welcome({
     <>
       <Head title="Welcome" />
 
-      <div className="relative isolate lg:px-8 h-screen overflow-hidden bg-gray-900">
+      <div className="relative isolate lg:px-8 h-screen overflow-hidden">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -25,7 +25,7 @@ export default function Welcome({
           {auth.user ? (
             <Link
               href={route("dashboard")}
-              className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+              className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20]"
             >
               Dashboard
             </Link>
@@ -33,13 +33,13 @@ export default function Welcome({
             <>
               <Link
                 href={route("login")}
-                className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20]"
               >
                 Connexion
               </Link>
               <Link
                 href={route("register")}
-                className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20]"
               >
                 Créer un compte
               </Link>
@@ -48,7 +48,7 @@ export default function Welcome({
         </nav>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 dark:text-gray-300 dark:ring-gray-300/10 dark:hover:ring-gray-300/20">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Développé par Pierre Perrin{" "}
               <a
                 href="https://github.com/protoxvga/TES"
@@ -61,10 +61,10 @@ export default function Welcome({
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl dark:text-white">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               On mange quoi ce midi ?
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600 break-words dark:text-gray-300">
+            <p className="mt-6 text-lg leading-8 text-gray-600 break-words">
               Outil Tiime pour faciliter le choix des repas de midi !
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">

@@ -34,29 +34,19 @@ const Countdown = () => {
   }
 
   return (
-    <>
-      {Number(time.hours) <= 24 && Number(time.hours) >= 23 ? (
-        <h2 className="mt-2 text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl md:text-7xl lg:text-8xl">
-          Votes en cours...
+    <div className="h-[80vh] w-screen flex items-center justify-center">
+      <div className="text-center p-10">
+        <p className="text-base font-semibold leading-7 text-indigo-600 ">
+          Les votes ouvrent dans...
+        </p>
+        <h2 className="mt-4 text-5xl font-bold tracking-tight text-gray-800 sm:text-6xl md:text-7xl lg:text-8xl">
+          {`${time.hours}:${time.minutes}:${time.seconds}`}
         </h2>
-      ) : (
-        <>
-          <p className="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-400">
-            {Number(time.hours) >= 11
-              ? "Les votes s'ouvrent"
-              : "Les votes s'ouvrent dans..."}
-          </p>
-          <h2 className="mt-4 text-5xl font-bold tracking-tight text-gray-800 sm:text-6xl md:text-7xl lg:text-8xl dark:text-white">
-            {Number(time.hours) >= 11
-              ? "Demain 11h00"
-              : `${time.hours}:${time.minutes}:${time.seconds}`}
-          </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl dark:text-gray-300">
-            A plus tard ! 🍔
-          </p>
-        </>
-      )}
-    </>
+        <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl">
+          A plus tard ! 🍔
+        </p>
+      </div>
+    </div>
   );
 };
 

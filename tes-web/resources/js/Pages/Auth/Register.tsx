@@ -2,7 +2,7 @@ import { useEffect, FormEventHandler } from "react";
 import GuestLayout from "@/Layouts/GuestLayout";
 import InputError from "@/Components/InputError";
 import InputLabel from "@/Components/InputLabel";
-import PrimaryButton from "@/Components/PrimaryButton";
+import { Button } from "@/Components/ui/button";
 import TextInput from "@/Components/TextInput";
 import { Head, useForm } from "@inertiajs/react";
 
@@ -33,7 +33,7 @@ export default function Register() {
 
       <div className="sm:mx-auto sm:w-full sm:max-w-sm flex flex-col items-center">
         {/* <ApplicationLogo /> */}
-        <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-white">
+        <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
           Créer un compte
         </h2>
       </div>
@@ -129,12 +129,12 @@ export default function Register() {
         </div>
 
         <div className="mt-8">
-          <PrimaryButton
+          <Button
             className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             disabled={processing}
           >
             Créer un compte
-          </PrimaryButton>
+          </Button>
           <p className="mt-4 text-center text-sm text-gray-500">
             Déjà inscrit ?{" "}
             <a

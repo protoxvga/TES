@@ -3,10 +3,9 @@ import Checkbox from "@/Components/Checkbox";
 import GuestLayout from "@/Layouts/GuestLayout";
 import InputError from "@/Components/InputError";
 import InputLabel from "@/Components/InputLabel";
-import PrimaryButton from "@/Components/PrimaryButton";
+import { Button } from "@/Components/ui/button";
 import TextInput from "@/Components/TextInput";
 import { Head, Link, useForm } from "@inertiajs/react";
-import ApplicationLogo from "@/Components/ApplicationLogo";
 
 export default function Login({
   status,
@@ -45,7 +44,7 @@ export default function Login({
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-6 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm flex flex-col items-center">
             {/* <ApplicationLogo /> */}
-            <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-white">
+            <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
               Se connecter
             </h2>
           </div>
@@ -104,19 +103,19 @@ export default function Login({
                   checked={data.remember}
                   onChange={(e) => setData("remember", e.target.checked)}
                 />
-                <span className="ms-2 text-sm text-gray-600 dark:text-gray-400">
+                <span className="ms-2 text-sm text-gray-600">
                   Se souvenir de moi
                 </span>
               </label>
             </div>
 
             <div className="mt-6">
-              <PrimaryButton
+              <Button
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 disabled={processing}
               >
                 Connexion
-              </PrimaryButton>
+              </Button>
               <p className="mt-10 text-center text-sm text-gray-500">
                 Pas encore inscrit ?{" "}
                 <a

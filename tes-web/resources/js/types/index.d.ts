@@ -17,6 +17,9 @@ export interface Vote {
   id: number;
   user_id: number;
   restaurant: Restaurant;
+  users: User[];
+  meeting_time: string;
+  creator?: User;
   created_at: string;
   updated_at: string;
 }
@@ -44,5 +47,14 @@ export type PageProps<
     user: User;
   };
   surveys: Survey[];
+};
+
+export type VotePageProps<
+  T extends Record<string, unknown> = Record<string, unknown>
+> = T & {
+  auth: {
+    user: User;
+  };
   restaurants: Restaurant[];
+  survey: Survey[];
 };

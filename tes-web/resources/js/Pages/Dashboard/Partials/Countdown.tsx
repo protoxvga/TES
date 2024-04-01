@@ -36,7 +36,7 @@ const Countdown = () => {
   return (
     <div className="h-[80vh] w-screen flex items-center justify-center">
       <div className="text-center p-10">
-        <p className="text-base font-semibold leading-7 text-indigo-600 ">
+        <p className="text-base font-semibold leading-7 text-orange-600 ">
           Les votes ouvrent dans...
         </p>
         <h2 className="mt-4 text-5xl font-bold tracking-tight text-gray-800 sm:text-6xl md:text-7xl lg:text-8xl">

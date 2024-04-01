@@ -21,10 +21,10 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::middleware(['auth'])->group(function () {
+Route::middleware(['auth', CheckSurveyVote::class])->group(function () {
     Route::get('/vote', [VoteController::class, 'render'])->name('vote');
-    Route::middleware(CheckSurveyVote::class)->post('/vote', [VoteController::class, 'create'])->name('vote.create');
-    Route::middleware(CheckSurveyVote::class)->post('/vote/{voteId}/join', [VoteController::class, 'join'])->name('vote.join');
+    Route::post('/vote', [VoteController::class, 'create'])->name('vote.create');
+    Route::post('/vote/{voteId}/join', [VoteController::class, 'join'])->name('vote.join');
 });
 
 require __DIR__.'/auth.php';

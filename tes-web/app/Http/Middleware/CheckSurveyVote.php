@@ -11,14 +11,23 @@ class CheckSurveyVote
     public function handle(Request $request, Closure $next)
     {
         $surveyId = $request->input('survey_id');
-        $survey = Survey::find($surveyId);
 
-        if (!$survey || !$survey->is_open) {
-            return redirect()->back()->withErrors(['message' => 'Le sondage est fermé ou n\'existe pas']);
-        }
+        if ($surveyId) {
+            $survey = Survey::find($surveyId);
 
-        if ($survey->votes()->where('user_id', auth()->id())->exists()) {
-            return redirect()->back()->withErrors(['message' => 'Tu as déjà voté pour ce sondage']);
+            if (!$survey || !$survey->is_open) {
+                return redirect()->back()->withErrors(['message' => 'Le sondage est fermé ou n\'existe pas']);
+            }
+
+            if ($survey->votes()->where('user_id', auth()->id())->exists()) {
+                return redirect()->back()->withErrors(['message' => 'Tu as déjà créer / voté pour ce sondage']);
+            }
+        } else {
+            $openSurvey = Survey::where('is_open', true)->exists();
+
+            if (!$openSurvey) {
+                return redirect()->back()->withErrors(['message' => 'Aucun sondage n\'est ouvert actuellement']);
+            }
         }
 
         return $next($request);

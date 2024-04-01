@@ -12,6 +12,8 @@ export default function Dashboard({ auth, surveys }: PageProps) {
 
   const openedSurvey = surveys.find((survey) => survey.is_open);
 
+  console.log(openedSurvey);
+
   useEffect(() => {
     if (errors.message) {
       toast.warning(errors.message);
@@ -21,14 +23,7 @@ export default function Dashboard({ auth, surveys }: PageProps) {
   }, [errors, success]);
 
   return surveys ? (
-    <AuthenticatedLayout
-      user={auth.user}
-      header={
-        <h2 className="font-semibold text-xl text-gray-800  leading-tight">
-          Dashboard
-        </h2>
-      }
-    >
+    <AuthenticatedLayout user={auth.user}>
       <Head title="Dashboard" />
       {openedSurvey ? <Survey openedSurvey={openedSurvey} /> : <Countdown />}
     </AuthenticatedLayout>

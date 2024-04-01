@@ -1,5 +1,4 @@
-import * as React from "react";
-
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/Components/ui/button";
 import {
@@ -18,77 +17,69 @@ import {
 import { Restaurant } from "@/types";
 import { ArrowsUpDownIcon, CheckCircleIcon } from "@heroicons/react/24/outline";
 
-const frameworks = [
-  {
-    value: "next.js",
-    label: "Next.js",
-  },
-  {
-    value: "sveltekit",
-    label: "SvelteKit",
-  },
-  {
-    value: "nuxt.js",
-    label: "Nuxt.js",
-  },
-  {
-    value: "remix",
-    label: "Remix",
-  },
-  {
-    value: "astro",
-    label: "Astro",
-  },
-];
-
 const RestaurantsCombobox = ({
   restaurants,
+  value,
+  form,
 }: {
   restaurants: Restaurant[];
+  value: { restaurantName: string; restaurantId: number };
+  form: any;
 }) => {
-  const [open, setOpen] = React.useState(false);
-  const [value, setValue] = React.useState("");
+  const [open, setOpen] = useState(false);
 
   return (
-    frameworks && (
+    restaurants && (
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
           <Button
             variant="outline"
             role="combobox"
             aria-expanded={open}
-            className="w-[200px] justify-between"
+            className="w-[300px] justify-between"
           >
-            {value
-              ? frameworks.find((framework) => framework.value === value)?.label
-              : "Select framework..."}
+            {value.restaurantName ? (
+              <span className="truncate">{value.restaurantName}</span>
+            ) : (
+              <p className="text-gray-500">Choisissez un restaurant...</p>
+            )}
             <ArrowsUpDownIcon className="ml-2 h-4 w-4 shrink-0 opacity-50" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-[200px] p-0">
+        <PopoverContent className="w-[300px] p-0 overflow-y-auto max-h-[15rem]">
           <Command>
-            <CommandInput placeholder="Search framework..." className="h-9" />
-            <CommandEmpty>No framework found.</CommandEmpty>
+            <CommandInput />
+            <CommandEmpty>No restaurant found.</CommandEmpty>
             <CommandGroup>
               <CommandList>
-                {frameworks.map((framework) => (
-                  <CommandItem
-                    key={framework.value}
-                    value={framework.value}
-                    onSelect={(currentValue) => {
-                      setValue(currentValue === value ? "" : currentValue);
-                      setOpen(false);
-                    }}
-                  >
-                    {framework.label}
-                    <CheckCircleIcon
-                      className={cn(
-                        "ml-auto h-4 w-4",
-                        value === framework.value ? "opacity-100" : "opacity-0"
-                      )}
-                    />
-                  </CommandItem>
-                ))}
+                {restaurants
+                  .filter((restaurant) => restaurant.name)
+                  .map((restaurant) => (
+                    <CommandItem
+                      key={restaurant.id}
+                      value={restaurant.name}
+                      onSelect={(currentValue) => {
+                        setOpen(false);
+                        const selectedRestaurant = restaurants.find(
+                          (r) => r.name === currentValue
+                        );
+                        form.setValue("restaurant", {
+                          restaurantId: selectedRestaurant?.id,
+                          restaurantName: selectedRestaurant?.name,
+                        });
+                      }}
+                    >
+                      <span className="truncate">{restaurant.name}</span>
+                      <CheckCircleIcon
+                        className={cn(
+                          "ml-auto h-4 w-4",
+                          value.restaurantId === restaurant.id
+                            ? "opacity-100"
+                            : "opacity-0"
+                        )}
+                      />
+                    </CommandItem>
+                  ))}
               </CommandList>
             </CommandGroup>
           </Command>

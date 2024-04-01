@@ -130,7 +130,7 @@ export default function Register() {
 
         <div className="mt-8">
           <Button
-            className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="flex w-full justify-center rounded-md bg-orange-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
             disabled={processing}
           >
             Créer un compte
@@ -139,7 +139,7 @@ export default function Register() {
             Déjà inscrit ?{" "}
             <a
               href={`${route("login")}`}
-              className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              className="font-semibold leading-6 text-orange-600 hover:text-orange-500"
             >
               Se connecter !
             </a>

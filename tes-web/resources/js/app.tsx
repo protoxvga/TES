@@ -5,6 +5,7 @@ import { createRoot } from "react-dom/client";
 import { createInertiaApp } from "@inertiajs/react";
 import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 import { Toaster } from "./Components/ui/sonner";
+import { TooltipProvider } from "./Components/ui/tooltip";
 
 const appName = import.meta.env.VITE_APP_NAME;
 
@@ -20,8 +21,10 @@ createInertiaApp({
 
     root.render(
       <>
-        <App {...props} />
-        <Toaster />
+        <TooltipProvider>
+          <App {...props} />
+          <Toaster />
+        </TooltipProvider>
       </>
     );
   },

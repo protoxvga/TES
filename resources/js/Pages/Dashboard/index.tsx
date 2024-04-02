@@ -14,9 +14,9 @@ export default function Dashboard({ auth, surveys }: PageProps) {
 
   useEffect(() => {
     if (errors.message) {
-      toast.warning(errors.message);
+      toast(errors.message);
     } else if (success) {
-      toast.success(<p>{success}</p>);
+      toast(success);
     }
   }, [errors, success]);
 

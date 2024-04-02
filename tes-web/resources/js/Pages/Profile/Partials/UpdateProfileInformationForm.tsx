@@ -33,18 +33,17 @@ export default function UpdateProfileInformation({
   return (
     <section className={className}>
       <header>
-        <h2 className="text-lg font-medium text-gray-900">
-          Profile Information
-        </h2>
+        <h2 className="text-lg font-medium text-gray-900">Informations</h2>
 
         <p className="mt-1 text-sm text-gray-600">
-          Update your account's profile information and email address.
+          Mettez à jour les informations de votre profil et l'adresse e-mail de
+          votre compte.
         </p>
       </header>
 
       <form onSubmit={submit} className="mt-6 space-y-6">
         <div>
-          <InputLabel htmlFor="name" value="Name" />
+          <InputLabel htmlFor="name" value="Nom" />
 
           <TextInput
             id="name"
@@ -98,7 +97,7 @@ export default function UpdateProfileInformation({
         )}
 
         <div className="flex items-center gap-4">
-          <Button disabled={processing}>Save</Button>
+          <Button disabled={processing}>Sauvegarder</Button>
 
           <Transition
             show={recentlySuccessful}

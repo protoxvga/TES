@@ -51,28 +51,32 @@ export default function DeleteUserForm({
     <section className={`space-y-6 ${className}`}>
       <header>
         <h2 className="text-lg font-medium text-gray-900  Account">
-          Delete Account
+          Supprimer le compte
         </h2>
 
         <p className="mt-1 text-sm text-gray-600">
-          Once your account is deleted, all of its resources and data will be
-          permanently deleted. Before deleting your account, please download any
-          data or information that you wish to retain.
+          Une fois votre compte supprimé, toutes ses ressources et données
+          seront définitivement supprimées. Veuillez entrer votre mot de passe
+          pour confirmer que vous souhaitez supprimer définitivement votre
+          compte.
         </p>
       </header>
 
-      <DangerButton onClick={confirmUserDeletion}>Delete Account</DangerButton>
+      <DangerButton onClick={confirmUserDeletion}>
+        Supprimer le compte
+      </DangerButton>
 
       <Modal show={confirmingUserDeletion} onClose={closeModal}>
         <form onSubmit={deleteUser} className="p-6">
           <h2 className="text-lg font-medium text-gray-900">
-            Are you sure you want to delete your account?
+            Etes vous sûr de vouloir supprimer votre compte ?
           </h2>
 
           <p className="mt-1 text-sm text-gray-600">
-            Once your account is deleted, all of its resources and data will be
-            permanently deleted. Please enter your password to confirm you would
-            like to permanently delete your account.
+            Une fois votre compte supprimé, toutes ses ressources et données
+            seront définitivement supprimées. Veuillez entrer votre mot de passe
+            pour confirmer que vous souhaitez supprimer définitivement votre
+            compte.
           </p>
 
           <div className="mt-6">

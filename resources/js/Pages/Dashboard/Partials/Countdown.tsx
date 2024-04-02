@@ -14,7 +14,7 @@ const Countdown = () => {
   function calculateTimeUntilMidnight() {
     const now = new Date();
     const midnight = new Date();
-    midnight.setHours(11, 0, 0, 0);
+    midnight.setHours(10, 30, 0, 0);
 
     let difference = midnight.getTime() - now.getTime();
     if (difference < 0) {

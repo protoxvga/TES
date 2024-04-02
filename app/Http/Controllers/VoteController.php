@@ -27,7 +27,6 @@ class VoteController extends Controller
     {
         $userId = auth()->id();
 
-        // Check if the user has already joined any votes
         if (Vote::whereHas('users', function ($query) use ($userId) {
             $query->where('user_id', $userId);
         })->exists()) {

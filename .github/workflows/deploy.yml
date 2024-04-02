@@ -39,4 +39,4 @@ jobs:
         env:
           CAPROVER_PASSWORD: ${{ secrets.CAPROVER_PASSWORD }}
           CAPROVER_HOST: ${{ secrets.CAPROVER_HOST }}
-        run: caprover deploy -h '${CAPROVER_HOST}' -p '${CAPROVER_PASSWORD}' -a tes
+        run: caprover deploy -h ${CAPROVER_HOST} -p ${CAPROVER_PASSWORD} -a tes

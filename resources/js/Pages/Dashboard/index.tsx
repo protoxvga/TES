@@ -20,12 +20,11 @@ export default function Dashboard({ auth, surveys }: PageProps) {
     }
   }, [errors, success]);
 
-  return surveys ? (
+  return (
     <AuthenticatedLayout user={auth.user}>
       <Head title="Dashboard" />
-      {openedSurvey ? <Survey openedSurvey={openedSurvey} /> : <Countdown />}
+      {openedSurvey ? <Survey openedSurvey={openedSurvey} /> : null}
+      {!openedSurvey && <Countdown />}
     </AuthenticatedLayout>
-  ) : (
-    <></>
   );
 }

@@ -12,8 +12,6 @@ export default function Dashboard({ auth, surveys }: PageProps) {
 
   const openedSurvey = surveys.find((survey) => survey.is_open);
 
-  console.log(openedSurvey);
-
   useEffect(() => {
     if (errors.message) {
       toast.warning(errors.message);

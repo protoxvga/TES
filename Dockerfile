@@ -19,10 +19,6 @@ RUN a2enmod rewrite
 # Install PHP extensions
 RUN docker-php-ext-install mysqli pdo pdo_pgsql zip
 
-# Install Node.js
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
-RUN apt-get install -y nodejs
-
 # Configure Apache DocumentRoot to point to Laravel's public directory
 # and update Apache configuration files
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/public

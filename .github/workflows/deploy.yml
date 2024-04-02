@@ -6,12 +6,18 @@ on:
       - main
 
 jobs:
-  deploy:
+  deployment:
+    environment: CI
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
@@ -30,4 +36,7 @@ jobs:
         run: npm install -g caprover
 
       - name: Deploy to CapRover
-        run: caprover deploy --caproverUrl ${{ secrets.CAPROVER_HOST }} --caproverKey "${{ secrets.CAPROVER_SSH_PRIVATE_KEY }}" --appName tes
+        env:
+          CAPROVER_PASSWORD: ${{ secrets.CAPROVER_PASSWORD }}
+          CAPROVER_HOST: ${{ secrets.CAPROVER_HOST }}
+        run: caprover deploy -h '${CAPROVER_HOST}' -p '${CAPROVER_PASSWORD}' -a tes

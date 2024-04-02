@@ -40,4 +40,4 @@ jobs:
         with:
           host: ${{ secrets.CAPROVER_HOST }}
           password: ${{ secrets.CAPROVER_PASSWORD }}
-          app: "ada-dev"
+          app: "tes"

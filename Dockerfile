@@ -5,7 +5,10 @@ FROM php:8.2-apache as web
 RUN apt-get update && apt-get install -y \
     libpq-dev \
     libzip-dev \
-    zip
+    curl \
+    zip \
+    gnupg \
+    npm
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
@@ -15,6 +18,10 @@ RUN a2enmod rewrite
 
 # Install PHP extensions
 RUN docker-php-ext-install mysqli pdo pdo_pgsql zip
+
+# Install Node.js
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+RUN apt-get install -y nodejs
 
 # Configure Apache DocumentRoot to point to Laravel's public directory
 # and update Apache configuration files
@@ -33,6 +40,12 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 # Install project dependencies
 RUN composer install
+
+# Install NPM dependencies
+RUN npm install
+
+# Build the frontend
+RUN npm run build
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache

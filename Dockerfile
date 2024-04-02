@@ -44,8 +44,8 @@ RUN composer install
 # Install NPM dependencies
 RUN npm install
 
-# Build the frontend
-# RUN npm run build
+# Build frontend assets
+RUN npm run build
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache

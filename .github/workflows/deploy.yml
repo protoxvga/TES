@@ -32,12 +32,10 @@ jobs:
           npm install
           npm run build
 
-      - name: Install CapRover CLI
-        run: npm install -g caprover
-
       - name: Deploy to CapRover
         uses: floms/action-caprover@v1
         with:
           host: ${{ secrets.CAPROVER_HOST }}
           password: ${{ secrets.CAPROVER_PASSWORD }}
           app: "tes"
+          branch: "main"

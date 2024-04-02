@@ -57,7 +57,7 @@ export default function Vote({ auth, restaurants, survey }: VotePageProps) {
 
   useEffect(() => {
     if (errors.message) {
-      toast.warning(errors.message);
+      toast(errors.message);
     }
   }, [errors]);
 

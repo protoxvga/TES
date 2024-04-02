@@ -6,7 +6,34 @@ on:
       - main
 
 jobs:
+  build_and_push_to_registry:
+    environment: CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Extract metadata for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ secrets.IMAGE_NAME }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
   deployment:
+    needs: [build_and_push_to_registry]
     environment: CI
     runs-on: ubuntu-latest
 
@@ -14,28 +41,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "20"
-
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: "8.2"
-
-      - name: Install Composer dependencies
-        run: composer install --no-dev --optimize-autoloader
-
-      - name: Install npm dependencies and build assets
-        run: |
-          npm install
-          npm run build
-
       - name: Deploy to CapRover
         uses: floms/action-caprover@v1
         with:
           host: ${{ secrets.CAPROVER_HOST }}
           password: ${{ secrets.CAPROVER_PASSWORD }}
           app: "tes"
-          branch: "main"
+          image: ${{ secrets.IMAGE_NAME }}

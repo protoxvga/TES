@@ -29,7 +29,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: "tes:latest"
+          tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
   deployment:
@@ -44,4 +44,4 @@ jobs:
           host: ${{ secrets.CAPROVER_HOST }}
           password: ${{ secrets.CAPROVER_PASSWORD }}
           app: "tes"
-          image: ${{ secrets.IMAGE_NAME }}
+          image: ${{ secrets.IMAGE_NAME }}:main

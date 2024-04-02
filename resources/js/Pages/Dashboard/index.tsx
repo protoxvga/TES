@@ -16,7 +16,7 @@ export default function Dashboard({ auth, surveys }: PageProps) {
     if (errors.message) {
       toast.warning(errors.message);
     } else if (success) {
-      toast.success(success);
+      toast.success(<p>{success}</p>);
     }
   }, [errors, success]);
 

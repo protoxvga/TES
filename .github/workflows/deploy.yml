@@ -27,7 +27,7 @@ jobs:
           npm run build
 
       - name: Install CapRover CLI
-      run: npm install -g caprover
+        run: npm install -g caprover
 
       - name: Deploy to CapRover
-      run: caprover deploy --caproverUrl ${{ secrets.CAPROVER_HOST }} --caproverKey "${{ secrets.CAPROVER_SSH_PRIVATE_KEY }}" --appName tes
+        run: caprover deploy --caproverUrl ${{ secrets.CAPROVER_HOST }} --caproverKey "${{ secrets.CAPROVER_SSH_PRIVATE_KEY }}" --appName tes

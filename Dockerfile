@@ -1,6 +1,7 @@
 # Use PHP with Apache as the base image
 FROM php:8.2-apache as web
 
+ENV ASSET_URL https://tes.pierre-perrin.dev
 ENV APP_NAME TES
 ENV APP_ENV production
 ENV APP_DEBUG false

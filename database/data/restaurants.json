@@ -1,0 +1,6467 @@
+[
+  {
+    "name": "26 Corner",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1636653,
+      "lat": 48.681035999771424
+    },
+    "opening_hours": "Mo-Fr 11:30-14:30,18:30-22:30; Sa,Su 18:30-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Barami",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1782253,
+      "lat": 48.698447899767096
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Dolls Club",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1688861,
+      "lat": 48.68277879977101
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le National",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.189899,
+      "lat": 48.69592049976773
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Fraich’Art Bar Zinc",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1724182,
+      "lat": 48.69015339976917
+    },
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "website": "https://www.lebarzinc.com/",
+    "phone": null
+  },
+  {
+    "name": "Le Placieux",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.168565,
+      "lat": 48.67766269977227
+    },
+    "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-19:00; Su 09:00-19:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Sépia Café",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1787885,
+      "lat": 48.692520999768554
+    },
+    "opening_hours": "Mo-Fr 07:30-18:00;Sa 10:00-18:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Fils à Maman",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1804915,
+      "lat": 48.69397789976822
+    },
+    "opening_hours": "Mo-Fr 12:00-14:00,19:00-22:00; Sa 11:30-14:00,19:00-22:00; Su 11:30-14:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Top Food",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1810395,
+      "lat": 48.68942639976934
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Marianne",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1741648,
+      "lat": 48.67931239977185
+    },
+    "opening_hours": "Tu-We 11:45-14:30; Th-Sa 11:45-14:30,19:30-21:30; Su 12:00-14:30",
+    "website": "https://www.restaurantlamarianne.fr/",
+    "phone": "+33 3 83 40 23 77"
+  },
+  {
+    "name": "Bonidé",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1712577,
+      "lat": 48.67404589977316
+    },
+    "opening_hours": "Mo-Fr 11:45-13:45,18:45-21:00; Su 18:45-21:00",
+    "website": null,
+    "phone": "+33 9 87 77 69 99"
+  },
+  {
+    "name": "KhaoThip Express",
+    "cuisine": ["thai"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1825802,
+      "lat": 48.688568599769575
+    },
+    "opening_hours": "24/7",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Champêtre",
+    "cuisine": ["meat"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1821461,
+      "lat": 48.69311409976844
+    },
+    "opening_hours": "Mo-Th 12:00-14:00,19:00-21:30; Sa 12:00-14:00,19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Speebon",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1837358,
+      "lat": 48.68890169976947
+    },
+    "opening_hours": "Tu-Sa 11:30-14:30,18:30-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Thaï Hey",
+    "cuisine": ["thai"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1812298,
+      "lat": 48.69417399976816
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Sushi Kōbe",
+    "cuisine": ["sushi"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1752215,
+      "lat": 48.680389099771574
+    },
+    "opening_hours": "Tu-Su 11:30-14:30,18:30-22:30",
+    "website": "http://www.sushikobe.fr/",
+    "phone": null
+  },
+  {
+    "name": "Le Pacha du Bosphore",
+    "cuisine": ["greek"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1783256,
+      "lat": 48.69834859976714
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Thé Viet",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1807808,
+      "lat": 48.689731099769276
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pizzas",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1483773,
+      "lat": 48.69213729976866
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Comptoir de Bacchus",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1813722,
+      "lat": 48.69429529976814
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pizza Nostra",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1638232,
+      "lat": 48.66988079977419
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bagel & Salsa",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1733491,
+      "lat": 48.673124099773375
+    },
+    "opening_hours": null,
+    "website": "https://www.bageletsalsanancy.fr/",
+    "phone": "+33 3 87 57 52 54"
+  },
+  {
+    "name": "Pizzeria Adriatica",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.171499,
+      "lat": 48.690285399769145
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Los Tacos",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1855823,
+      "lat": 48.68961209976929
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 9 83 64 18 51"
+  },
+  {
+    "name": "Mandaloun",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1797462,
+      "lat": 48.696685199767565
+    },
+    "opening_hours": null,
+    "website": "http://www.mandaloun-nancy.fr",
+    "phone": null
+  },
+  {
+    "name": "Verdure",
+    "cuisine": ["salad"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1817369,
+      "lat": 48.69006219976919
+    },
+    "opening_hours": "Mo-Sa 11:00-16:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Quick",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1761692,
+      "lat": 48.68952689976931
+    },
+    "opening_hours": "Mo-Th,Su 10:30-23:00; Fr-Sa 10:30-24:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Up To You",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1817276,
+      "lat": 48.69451849976809
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le village Afrotaste",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1943737,
+      "lat": 48.689166599769415
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "0745018354"
+  },
+  {
+    "name": "Michelangelo",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1834835,
+      "lat": 48.69409439976818
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bakoua",
+    "cuisine": ["caribbean"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1827859,
+      "lat": 48.68699169976995
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Môme",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1809519,
+      "lat": 48.69078469976902
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "O'Tacos",
+    "cuisine": ["mexican"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1755331,
+      "lat": 48.6892216997694
+    },
+    "opening_hours": "Mo-Sa 11:30-23:00; Su 12:30-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Villa",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.199708943330188,
+      "lat": 48.69741073688131
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le V'Four",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1789188,
+      "lat": 48.69678259976751
+    },
+    "opening_hours": "Tu-Su 12:00-14:00, Tu-Sa 19:30-22:00",
+    "website": "https://www.levfour.fr/",
+    "phone": "+33 3 83 32 49 48"
+  },
+  {
+    "name": "Le Bengale",
+    "cuisine": ["indian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1826869,
+      "lat": 48.687944899769704
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Boteco do Brasil",
+    "cuisine": ["brazilian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.178448,
+      "lat": 48.69867399976705
+    },
+    "opening_hours": null,
+    "website": "https://botecodobrasil.fr/",
+    "phone": null
+  },
+  {
+    "name": "Nord Est Lounge",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1794839,
+      "lat": 48.68942529976935
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Au 12 14",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1914086,
+      "lat": 48.693384799768346
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chez Xuân",
+    "cuisine": ["chinese", "vietnamese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1843835,
+      "lat": 48.68644449977008
+    },
+    "opening_hours": "Tu-Sa 11:30-13:30,19:00-22:00",
+    "website": null,
+    "phone": "+33 3 83 30 44 77"
+  },
+  {
+    "name": "Le Petit Monde de Barnabé",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1821842,
+      "lat": 48.68876719976953
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brasserie Saint-Epvre",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1790474,
+      "lat": 48.6960481997677
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Forteresse",
+    "cuisine": ["pizza", "sandwich", "couscous"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1761912,
+      "lat": 48.701098599766446
+    },
+    "opening_hours": "11:00-14:00,18:00-23:00; Fr,Sa 18:00-00:00",
+    "website": "http://pizzerialaforteresse.fr/",
+    "phone": "+33 3 83183424"
+  },
+  {
+    "name": "Brasserie Saint-Georges",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1864714,
+      "lat": 48.69216289976866
+    },
+    "opening_hours": "Mo-We 11:00-15:00,17:00-00:00; Th-Sa 11:00-15:00,17:00-02:00",
+    "website": "https://brasserie-saint-georges-nancy.eatbu.com",
+    "phone": "+33 355 683 474"
+  },
+  {
+    "name": "Amorino",
+    "cuisine": null,
+    "type": "ice_cream",
+    "geo_point_2d": {
+      "lon": 6.1829013,
+      "lat": 48.69427689976815
+    },
+    "opening_hours": "12:30-19:00; Fr,Sa 12:30-23:00",
+    "website": "https://www.amorino.com/fr/boutique/nancy-stanislas.79.html",
+    "phone": null
+  },
+  {
+    "name": "Brasserie de la Vieille Ville",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1787848,
+      "lat": 48.69782979976726
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Boufflers",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1614614,
+      "lat": 48.68916579976941
+    },
+    "opening_hours": "Mo-Sa 11:30-14:30,18:00-23:00; Su 18:00-23:00",
+    "website": null,
+    "phone": "+33 3 83 26 86 60"
+  },
+  {
+    "name": "La Tour de Pizz\"",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1916537,
+      "lat": 48.68634839977012
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Made in France",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1693927,
+      "lat": 48.67654769977253
+    },
+    "opening_hours": "Tu-Sa 11:30-14:00,18:30-21:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "100 Patates",
+    "cuisine": ["steak_house"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1945568,
+      "lat": 48.6924568997686
+    },
+    "opening_hours": null,
+    "website": "https://100-patates.com/restaurant/fiche/8-nancy",
+    "phone": "+33 3 83 47 44 64"
+  },
+  {
+    "name": "Au Bistronome",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1782381,
+      "lat": 48.69625819976765
+    },
+    "opening_hours": "Tu-Sa 12:00-13:30,19:00-22:00",
+    "website": "https://www.aubistronome-nancy.fr/",
+    "phone": "+33 9 67 60 59 17"
+  },
+  {
+    "name": "Sisco",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.181585,
+      "lat": 48.69427659976814
+    },
+    "opening_hours": "Mo-Sa 12:00-14:00,18:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Atelier 35",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1821784,
+      "lat": 48.68809219976967
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Little Niam",
+    "cuisine": ["asian", "fast_food"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1757878,
+      "lat": 48.691703399768784
+    },
+    "opening_hours": null,
+    "website": "https://www.littleniamnancy.fr/",
+    "phone": null
+  },
+  {
+    "name": "Brasserie d'Haussonville",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1673319,
+      "lat": 48.670629799774005
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bras Verre",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1960034,
+      "lat": 48.69616289976768
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Angelùzzo",
+    "cuisine": ["italian", "pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1828886,
+      "lat": 48.69038709976911
+    },
+    "opening_hours": "11:00-23:00; Fr,Sa 11:00-24:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Arborio  Risotto Bar",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1794531,
+      "lat": 48.69687439976751
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L’Éliceur",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1800342,
+      "lat": 48.693546599768325
+    },
+    "opening_hours": "Tu-Sa 12:00-14:00,19:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Welkoum",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1837143,
+      "lat": 48.690011899769196
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Chat l'heureux",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1772871,
+      "lat": 48.69219489976866
+    },
+    "opening_hours": "Tu-Fr 11:00-20:00; Sa 14:00-20:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le San Lorenzo",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1800699,
+      "lat": 48.692340899768624
+    },
+    "opening_hours": "Tu-Sa 12:00-14:00,19:00-24:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Perroquet",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1686488,
+      "lat": 48.69222609976865
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Au Tiercé",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1984619,
+      "lat": 48.67689209977245
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Tacos One",
+    "cuisine": ["tacos"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1857605,
+      "lat": 48.68403939977068
+    },
+    "opening_hours": "Mo-Th 11:00-14:30,18:30-23:00; Fr-Sa 18:30-00:00; Su 18:30-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Palais de Shalimar",
+    "cuisine": ["indian", "pakistani"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1814287,
+      "lat": 48.694311699768136
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83304533"
+  },
+  {
+    "name": "New Pub",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1819922,
+      "lat": 48.69053809976906
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Maxi Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1661417,
+      "lat": 48.68300689977094
+    },
+    "opening_hours": "Mo-Sa 11:00-14:00,17:00-22:30; Su 17:00-22:30",
+    "website": null,
+    "phone": "+33 3 83 40 01 16"
+  },
+  {
+    "name": "Le Vivier",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1815073,
+      "lat": 48.694247099768134
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Phénix",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1815811,
+      "lat": 48.692942299768475
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Faille",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1810126,
+      "lat": 48.691509599768835
+    },
+    "opening_hours": "Tu-Fr 17:00-02:00; Sa 14:00-02:00; Su 14:00-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Salon de Thé Batt",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1842402,
+      "lat": 48.691261399768905
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bistro Régent",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.180318,
+      "lat": 48.689386399769354
+    },
+    "opening_hours": null,
+    "website": "https://www.bistro-regent.fr/ou-trouver-les-bistros/nancy/",
+    "phone": null
+  },
+  {
+    "name": "Saveurs et Parfums d'Italie",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1826392,
+      "lat": 48.68945459976934
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bar des Carmes",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1803089,
+      "lat": 48.69166729976879
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Home Made Burger",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1790662,
+      "lat": 48.684644099770544
+    },
+    "opening_hours": null,
+    "website": "https://www.hmburger.fr/",
+    "phone": null
+  },
+  {
+    "name": "L'Olry",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1939696,
+      "lat": 48.6808143997715
+    },
+    "opening_hours": null,
+    "website": "https://bar-tabac-lolry.business.site/",
+    "phone": "+33 6 11 86 36 30"
+  },
+  {
+    "name": "Rice and curry",
+    "cuisine": ["indian", "curry", "rice"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1728211,
+      "lat": 48.6904158997691
+    },
+    "opening_hours": "Mo-Fr 11:30-14:00,18:30-21:00",
+    "website": null,
+    "phone": "+33 3 72 14 28 49"
+  },
+  {
+    "name": "Les Nouveaux Abattoirs",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.197395,
+      "lat": 48.69429689976815
+    },
+    "opening_hours": "Mo-Sa 12:00-14:00,19:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Take'n Eat",
+    "cuisine": ["salad"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1740648,
+      "lat": 48.68875059976952
+    },
+    "opening_hours": "Mo-Fr 11:00-14:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Asia Wok",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1843988,
+      "lat": 48.6904305997691
+    },
+    "opening_hours": "Mo-Sa 11:30-14:00,18:30-21:00",
+    "website": "https://asia-wok-nancy.eatbu.com/?lang=fr#contact",
+    "phone": "+33 3 83 35 51 60"
+  },
+  {
+    "name": "Brasserie Restaurant du Parc Sainte-Marie",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1720244,
+      "lat": 48.680374799771606
+    },
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "website": "http://brasserieduparc.fr/",
+    "phone": "+33 3 83 39 59 82"
+  },
+  {
+    "name": "Café du Commerce",
+    "cuisine": ["regional"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1826235,
+      "lat": 48.69320249976841
+    },
+    "opening_hours": "07:30-02:00",
+    "website": "https://www.cafeducommercenancy.com/",
+    "phone": "+33 3 83 35 52 67"
+  },
+  {
+    "name": "Kensington Coffee",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.183854,
+      "lat": 48.69005679976919
+    },
+    "opening_hours": "Tu-Sa 09:00-18:00",
+    "website": "https://www.kensingtoncoffee.fr/",
+    "phone": null
+  },
+  {
+    "name": "Massimo Caffè",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1799046,
+      "lat": 48.69258129976856
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Bocca",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1821527,
+      "lat": 48.68812719976967
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brasserie du Sacré-Cœur",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1621755,
+      "lat": 48.68619999977013
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le K",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1842948,
+      "lat": 48.69178639976876
+    },
+    "opening_hours": "Mo 19:00-22:00; Tu-Th 12:00-13:30,19:00-22:00; Fr 12:00-13:30,19:00-22:30; Sa 19:00-22:30",
+    "website": "https://restaurant-le-k.fr/",
+    "phone": null
+  },
+  {
+    "name": "Big Sister",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1861098,
+      "lat": 48.68549049977033
+    },
+    "opening_hours": "Mo-We 10:00-17:30; Sa,Su 09:30-17:30",
+    "website": "https://www.bigsistervegan.com/bigsistercafe-fr",
+    "phone": null
+  },
+  {
+    "name": "Les Deux Palmiers",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1784534,
+      "lat": 48.692136099768675
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Karrément Burger",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1788138,
+      "lat": 48.69275149976851
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "PICKLES",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1845221,
+      "lat": 48.69020719976914
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Café de la Paix",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1768479,
+      "lat": 48.68946669976934
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "French Coffee Shop",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1841854,
+      "lat": 48.690979799768975
+    },
+    "opening_hours": "Mo-Sa 10:00-19:00; Su 14:00-19:00",
+    "website": "https://www.frenchcoffeeshop.com/shop/nancy",
+    "phone": null
+  },
+  {
+    "name": "Malzéville Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.181955,
+      "lat": 48.70355759976586
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Chardon",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1865969,
+      "lat": 48.68550629977032
+    },
+    "opening_hours": "Mo 12:00-14:30; Tu-Fr 12:00-14:30,19:00-21:30; Sa 12:00-14:30,19:00-22:00",
+    "website": "https://restaurant-lechardon.fr/",
+    "phone": "+33 3 83 32 73 97"
+  },
+  {
+    "name": "Restaurant Beauregard",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.139682,
+      "lat": 48.69347999976834
+    },
+    "opening_hours": "Mo-Th 07:30-16:00; Tu,Fr 07:30-20:00",
+    "website": "https://restaurant-le-beauregard.fr/",
+    "phone": "+33 3 83 98 61 76"
+  },
+  {
+    "name": "O'Pacha Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1713431,
+      "lat": 48.68671259977001
+    },
+    "opening_hours": "Mo-Sa 11:00-14:30,17:00-02:30; Su 14:00-02:00",
+    "website": null,
+    "phone": "+33 9 54 78 21 66"
+  },
+  {
+    "name": "Bon’t",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1920556,
+      "lat": 48.68892409976947
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Opéra Café",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1832195,
+      "lat": 48.69445489976811
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Ostorea II",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1542142,
+      "lat": 48.70339109976589
+    },
+    "opening_hours": "Mo-Sa 11:00-14:00,18:00-22:30; Su 18:00-23:00",
+    "website": "http://www.pizza-ostorea.com/",
+    "phone": null
+  },
+  {
+    "name": "Le Tém'",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1811209,
+      "lat": 48.6952453997679
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Traviata",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1797136,
+      "lat": 48.69670729976754
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Puces",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1808505,
+      "lat": 48.69568799976778
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Zorba",
+    "cuisine": ["turkish"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1852051,
+      "lat": 48.6896128997693
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Domino's",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1866081,
+      "lat": 48.6852075997704
+    },
+    "opening_hours": "11:00-14:00,18:00-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": null,
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1703239,
+      "lat": 48.6847386997705
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "California",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1894753,
+      "lat": 48.69327349976839
+    },
+    "opening_hours": null,
+    "website": "http://www.pizzacalifornia54.fr/",
+    "phone": "+33 3 83 31 36 36"
+  },
+  {
+    "name": "Olry Pizza",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1932527,
+      "lat": 48.681257599771385
+    },
+    "opening_hours": "11:00-14:00,18:30-22:00",
+    "website": "https://www.olry-pizza.fr/",
+    "phone": null
+  },
+  {
+    "name": "L'Épicerie Chez Marguerite",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1807513,
+      "lat": 48.694047299768215
+    },
+    "opening_hours": null,
+    "website": "http://www.lepicerie-nancy.com/",
+    "phone": "+33 3 83 36 67 53"
+  },
+  {
+    "name": "Tabarnak",
+    "cuisine": ["canadian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1789071,
+      "lat": 48.68461039977053
+    },
+    "opening_hours": "Tu-Fr 19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Feinte de l'Ours",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1867487,
+      "lat": 48.684830299770496
+    },
+    "opening_hours": "Tu-Sa 19:00-24:00; Su 14:00-19:00",
+    "website": "https://lafeintedelours.fr",
+    "phone": "+33 3 83 41 46 06"
+  },
+  {
+    "name": "Le Coq en Fer",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1847646,
+      "lat": 48.690399199769104
+    },
+    "opening_hours": "Tu-Sa 12:00-14:00,19:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Majeur",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1802162,
+      "lat": 48.68746899976985
+    },
+    "opening_hours": "Mo-Fr 08:00-17:00; Su 11:00-14:00",
+    "website": null,
+    "phone": "+33 9 51 13 53 94"
+  },
+  {
+    "name": "La Maison Chinoise",
+    "cuisine": ["chinese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1785517,
+      "lat": 48.68454509977057
+    },
+    "opening_hours": "Mo-Fr 11:30-14:30; Th-Sa 19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brend'Oliv",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1778748,
+      "lat": 48.69867819976707
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Tacos des Gourmets",
+    "cuisine": ["tacos"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1837135,
+      "lat": 48.68893179976946
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Sushi-Show",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1959848,
+      "lat": 48.69206439976869
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Domaines Qui Montent",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1769458,
+      "lat": 48.68394699977071
+    },
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Tacos Avenue",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1904826,
+      "lat": 48.69346359976836
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Tête à l'Envers",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1754813,
+      "lat": 48.689644699769296
+    },
+    "opening_hours": "Mo-Sa 10:00-22:00",
+    "website": null,
+    "phone": "+33 3 83 23 20 24"
+  },
+  {
+    "name": "White Dream",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1666699,
+      "lat": 48.6855569997703
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Sweet & Co.",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1786456,
+      "lat": 48.68914039976943
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les 7 Bourriches",
+    "cuisine": ["seafood"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1817752,
+      "lat": 48.69300149976848
+    },
+    "opening_hours": "Tu-Sa 12:00-14:00,19:00-22:00; Fr 12:00-14:15,19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Octavius Burger",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1823421,
+      "lat": 48.69316599976841
+    },
+    "opening_hours": "Su-Th 11:30-21:30; Fr,Sa 11:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Julienne",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1847178,
+      "lat": 48.69094779976896
+    },
+    "opening_hours": "Tu,We 12:00-14:00; Th-Sa 12:00-14:00,19:00-22:30",
+    "website": null,
+    "phone": "+33 3 83 44 36 33"
+  },
+  {
+    "name": "Le Comptoir Saint Michel",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1791839,
+      "lat": 48.69692219976749
+    },
+    "opening_hours": "Tu-Sa 11:45-14:15,19:00-23:30; Su 11:45-14:15",
+    "website": "https://www.lecomptoirstmichel.fr/",
+    "phone": null
+  },
+  {
+    "name": "Les Artistes",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1807406,
+      "lat": 48.69295229976848
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Food’Lab",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1945697,
+      "lat": 48.695368799767884
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Berlin Kebap Haus",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1897813,
+      "lat": 48.69323429976842
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bar du Faubourg",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1754686,
+      "lat": 48.70245079976611
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pizzeria Sole Mio",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1653036,
+      "lat": 48.682316399771125
+    },
+    "opening_hours": "Mo-Fr 11:30-14:00,18:00-22:00; Sa 18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bistrot d'Alsace",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1890904,
+      "lat": 48.68383909977072
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Ciao Bella",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1846887,
+      "lat": 48.690338999769125
+    },
+    "opening_hours": "Tu-Th 12:00-14:00,19:00-22:00; Fr,Sa 12:00-14:00,19:00-23:00",
+    "website": null,
+    "phone": "+33 3 86 33 39 78"
+  },
+  {
+    "name": "Les Planches",
+    "cuisine": [
+      "deli",
+      "friture",
+      "burger",
+      "tapas",
+      "steak_house",
+      "sandwich",
+      "coffee_shop",
+      "grill"
+    ],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.181034,
+      "lat": 48.69421819976816
+    },
+    "opening_hours": "Mo-Su 18:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Brunch des Garçons",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1797638,
+      "lat": 48.68931289976938
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83 32 45 65"
+  },
+  {
+    "name": "Coyote",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1772187,
+      "lat": 48.69224869976865
+    },
+    "opening_hours": "Mo-Sa 11:00-02:30; Su 17:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Arlevie",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1758418,
+      "lat": 48.67985389977172
+    },
+    "opening_hours": null,
+    "website": "https://arlevie.fr",
+    "phone": "+33 637 093 808"
+  },
+  {
+    "name": "L'Arrosoir",
+    "cuisine": ["french", "pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.182672,
+      "lat": 48.69420419976816
+    },
+    "opening_hours": null,
+    "website": "http://restaurant-arrosoir.com/",
+    "phone": null
+  },
+  {
+    "name": "Le Foodies",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1854148,
+      "lat": 48.689564499769325
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Vaudémont",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1821125,
+      "lat": 48.6944445997681
+    },
+    "opening_hours": null,
+    "website": "http://www.brasserie-vaudemont.com/",
+    "phone": "+33 3 54952965"
+  },
+  {
+    "name": "(S)pace Artem",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1693227,
+      "lat": 48.67356879977326
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "54 Cocktails Bar",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1797119,
+      "lat": 48.69474889976804
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Brasserie de l'Irlandais",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1759513,
+      "lat": 48.68977239976925
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Grand Café Foy",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1827061,
+      "lat": 48.693070699768434
+    },
+    "opening_hours": "Mo-Su 07:30-02:00",
+    "website": "https://www.grandcafefoy.com/",
+    "phone": null
+  },
+  {
+    "name": "La Mandarine",
+    "cuisine": ["sandwich", "salad", "juice"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1818937,
+      "lat": 48.69318559976843
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "3 Maisons Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1763,
+      "lat": 48.701792299766275
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Flambock",
+    "cuisine": ["alsacian", "regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1817791,
+      "lat": 48.694406099768095
+    },
+    "opening_hours": "Mo-Su 18:30-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Au Grand Sérieux",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1820006,
+      "lat": 48.68970249976929
+    },
+    "opening_hours": "Tu-Th 10:00-16:30; Fr 10:00-15:00,18:00-23:00; Sa 10:00-18:00",
+    "website": null,
+    "phone": "+33 3 83 36 68 87"
+  },
+  {
+    "name": "Au Pain Chaud",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1734297,
+      "lat": 48.67218669977362
+    },
+    "opening_hours": "Mo-Th 07:00-19:00; Fr 07:00-14:00; Su 08:00-13:00; Sa off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Table de Béa",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1810115,
+      "lat": 48.69542559976787
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83355194"
+  },
+  {
+    "name": "Le Sympa",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1884378,
+      "lat": 48.68735709976987
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Palais de Chine",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.190395,
+      "lat": 48.683037199770936
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Seigneurs",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1784059,
+      "lat": 48.69825939976716
+    },
+    "opening_hours": "Mo-Sa 18:00-02:00; Su 16:00-23:00",
+    "website": "https://les-seigneurs.business.site/",
+    "phone": null
+  },
+  {
+    "name": "Akdeniz Kebab 2",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1953787,
+      "lat": 48.685461699770336
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Bolée",
+    "cuisine": ["crepe"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1824604,
+      "lat": 48.68771069976977
+    },
+    "opening_hours": "Tu-Th 11:45-13:45,18:45-22:00; Fr,Sa 11:45-13:45,18:45-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "BCHEF",
+    "cuisine": ["bagel", "burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1810015,
+      "lat": 48.68858249976955
+    },
+    "opening_hours": "Mo-Sa 10:00-22:00",
+    "website": "https://bchef.fr/les-restaurants-bchef/bchef-nancy-centre-commercial-saint-sebastien/",
+    "phone": null
+  },
+  {
+    "name": "Vins et Tartines",
+    "cuisine": ["wine", "tartines"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1819096,
+      "lat": 48.68845779976959
+    },
+    "opening_hours": "Tu-Th 10:30-14:00,18:30-21:30; Fr-Sa 10:30-14:00,18:30-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Batteurs d'Or",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1800042,
+      "lat": 48.68959239976932
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83 36 72 87"
+  },
+  {
+    "name": "L'Amusette",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1797966,
+      "lat": 48.694615299768074
+    },
+    "opening_hours": "Mo-Tu 19:00-22:00; We-Th 12:00-14:00,19:00-22:00; Fr-Sa 12:00-14:00,19:00-23:00; Su off; PH off",
+    "website": "https://lamusette.eatbu.com",
+    "phone": "+33 9 81 43 33 74"
+  },
+  {
+    "name": "Le Local",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1689707,
+      "lat": 48.685984399770184
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Gold",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1837773,
+      "lat": 48.690032299769214
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Re-cyclerie café",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.182849,
+      "lat": 48.68854819976956
+    },
+    "opening_hours": "Tu-Sa 14:00-19:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "AuthentiKebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1717717,
+      "lat": 48.67150239977379
+    },
+    "opening_hours": "Mo-Fr 11:00-14:00,17:00-23:00; Su 17:00-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brasserie du Marché",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1667432,
+      "lat": 48.671434699773805
+    },
+    "opening_hours": "Mo-Th 07:00-19:30; Fr 07:00-23:30; Sa 07:00-17:00",
+    "website": "https://labdm.net/",
+    "phone": null
+  },
+  {
+    "name": "Le Mont Liban",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1842475,
+      "lat": 48.69144519976886
+    },
+    "opening_hours": "Tu-Sa 11:30-13:30,18:30-21:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Parallel",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1851356,
+      "lat": 48.69050439976907
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Escapade",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1895363,
+      "lat": 48.692550599768566
+    },
+    "opening_hours": "Mo 12:00-14:00; Tu-Fr 12:00-14:00, 19:00-22:00; Sa 19:00-22:00",
+    "website": null,
+    "phone": "+33 3 83354525"
+  },
+  {
+    "name": "Le Potager",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1811035,
+      "lat": 48.69414409976819
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le clou",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1877866,
+      "lat": 48.68454639977056
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Camaraderie",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1816162,
+      "lat": 48.69310129976843
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le DM's Café",
+    "cuisine": ["french"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1771502,
+      "lat": 48.684095399770655
+    },
+    "opening_hours": "Mo 09:00-20:00; Tu-Fr 08:30-20:00; Sa 08:30-19:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Sushi Shop",
+    "cuisine": ["sushi"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1809718,
+      "lat": 48.69263169976855
+    },
+    "opening_hours": "Mo-Su 11:00-14:30,18:00-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Échanson",
+    "cuisine": ["charcuterie", "tartines"],
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1852131,
+      "lat": 48.690526199769074
+    },
+    "opening_hours": "Tu-Sa 12:00-14:30,17:30-21:30",
+    "website": "http://www.echanson-nancy.com/",
+    "phone": "+33 3 83 35 51 58"
+  },
+  {
+    "name": "La Cerise sur le Gâteau",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1817521,
+      "lat": 48.69424919976815
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Monténégro",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1879695,
+      "lat": 48.6803240997716
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Weng Hoak",
+    "cuisine": ["chinese"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1808431,
+      "lat": 48.68969119976927
+    },
+    "opening_hours": "Mo-Sa 10:00-19:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Puce à l'Oreille",
+    "cuisine": ["cheese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1816664,
+      "lat": 48.69296839976847
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Trois Petits Points",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1894564,
+      "lat": 48.693450999768345
+    },
+    "opening_hours": "\"ouverture irrégulière / événementielle\"",
+    "website": null,
+    "phone": "+33 6 60239381"
+  },
+  {
+    "name": "La Patate Gourmande",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1849364,
+      "lat": 48.689662699769286
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 9 526094"
+  },
+  {
+    "name": "La Fournaise",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1941726,
+      "lat": 48.68573849977026
+    },
+    "opening_hours": null,
+    "website": "http://www.lafournaise974.com",
+    "phone": null
+  },
+  {
+    "name": "La Flambée",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1753775,
+      "lat": 48.67449979977304
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Trattoria San Giorgio",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.186887,
+      "lat": 48.692295999768625
+    },
+    "opening_hours": "Th-Tu 12:00-14:00; 19:00-23:00; We off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bar Narcys",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1710947,
+      "lat": 48.69100479976896
+    },
+    "opening_hours": "Mo-Fr 16:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pidélice",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1721897,
+      "lat": 48.69008309976918
+    },
+    "opening_hours": "Mo-Fr 11:45-14:30,19:00-21:45; Su 11:00-15:00,19:00-21:45 \"Sur Réservation\"",
+    "website": "https://pidelice.com/",
+    "phone": "+33 9 52 92 47 72"
+  },
+  {
+    "name": "Le Central",
+    "cuisine": ["coffee_shop", "french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1897353,
+      "lat": 48.68345029977082
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Restaurant Universitaire Stanislas-Meurthe",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.197216345402608,
+      "lat": 48.69526948675932
+    },
+    "opening_hours": "11:30-13:30",
+    "website": "http://www.crous-nancy-metz.fr/crous/sites/crous/accueil/restauration/lesrestosu/nancy/restoustanislasmeurthe/d4115cac7f0000010166a97ecde32a93",
+    "phone": "+33 3 83192143"
+  },
+  {
+    "name": "Le Djurdjura",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1860193,
+      "lat": 48.68843279976958
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Burger King",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1826188,
+      "lat": 48.690418699769104
+    },
+    "opening_hours": "11:00-23:00; Fr,Sa 11:00-24:00",
+    "website": "https://restaurants.burgerking.fr/nancy-saint-dizier",
+    "phone": null
+  },
+  {
+    "name": "Big Burger",
+    "cuisine": ["tacos", "burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1676955,
+      "lat": 48.69231649976864
+    },
+    "opening_hours": "Mo-Su 11:30-14:30; Mo-Su 17:30-22:30",
+    "website": null,
+    "phone": "0383967817"
+  },
+  {
+    "name": "Madame",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1781586,
+      "lat": 48.7004690997666
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Royal",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1781088,
+      "lat": 48.684450199770595
+    },
+    "opening_hours": "Mo-Fr 11:00-14:30, Tu-Fr 18:00-02:00, Sa,Su closed",
+    "website": "https://leroyalroyal.fr",
+    "phone": "+33 3 83 28 07 67"
+  },
+  {
+    "name": "Au Soleil de Provence",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1779713,
+      "lat": 48.684421999770585
+    },
+    "opening_hours": "Tu-Fr 11:30-13:30, Tu-Su 18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Steakhouse",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.197941,
+      "lat": 48.68168329977127
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Colibri",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1813813,
+      "lat": 48.70250299976611
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Abracadabra",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1808556,
+      "lat": 48.70246339976611
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Mon Petit Bouchon",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1854576,
+      "lat": 48.69051849976908
+    },
+    "opening_hours": "Tu-Th 12:00-14:00, 19:00-22:00, Fr-Sa 12:00-14:00, 19:00-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Gavroche",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1793119,
+      "lat": 48.696531699767576
+    },
+    "opening_hours": "Mo-Sa 10:00-02:00; PH,Su 09:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Leopol Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1770346,
+      "lat": 48.69525109976791
+    },
+    "opening_hours": null,
+    "website": "https://www.leopolkebab.fr/",
+    "phone": "+33 3 83 30 60 88"
+  },
+  {
+    "name": "Café de la Terrasse",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1879081,
+      "lat": 48.68775929976976
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Au Papa Guy",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1814324,
+      "lat": 48.692880999768484
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Asia Food",
+    "cuisine": ["asian"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1900065,
+      "lat": 48.69932929976689
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brasserie d'Auteuil",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1870188,
+      "lat": 48.69214649976868
+    },
+    "opening_hours": "Mo-Sa 08:00-22:00; Su 08:00-13:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Empire de Chine",
+    "cuisine": ["chinese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1824737,
+      "lat": 48.68871409976954
+    },
+    "opening_hours": "Tu-Su 11:30-14:00, Tu-Sa 19:00-21:30; Mo off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Groseille",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1848567,
+      "lat": 48.69051039976908
+    },
+    "opening_hours": "Mo 19:30-22:00; Tu-Sa 12:00-14:00,19:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Angeluzzo",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1956748,
+      "lat": 48.69191929976873
+    },
+    "opening_hours": null,
+    "website": "https://www.angeluzzo.fr/restaurant-nancy-kinepolis.php",
+    "phone": "+33 3 83 19 74 95"
+  },
+  {
+    "name": "Brasserie Excelsior",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1758437,
+      "lat": 48.69077509976902
+    },
+    "opening_hours": "Mo-Su 00:00-00:30,08:00-24:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Tassigny",
+    "cuisine": ["coffee_shop", "french"],
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1895518,
+      "lat": 48.68356439977079
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bistro Héré",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1829243,
+      "lat": 48.69424379976814
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83 30 49 69"
+  },
+  {
+    "name": "Sèves",
+    "cuisine": ["juice", "cookies", "coffeeshop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1814789,
+      "lat": 48.69229019976864
+    },
+    "opening_hours": "Tu-Sa 10:00-19:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chez Nadine",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1774158,
+      "lat": 48.67657919977253
+    },
+    "opening_hours": "Mo-Sa 07:30-14:00,15:30-19:30; Th 07:30-14:00; Su 08:00-12:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "O' Miam - City food",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1873798,
+      "lat": 48.68782659976974
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 9 81 01 63 54"
+  },
+  {
+    "name": "Papa Joe",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1814895,
+      "lat": 48.69402719976821
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Arrangés du Bocal",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1806085,
+      "lat": 48.691252099768896
+    },
+    "opening_hours": "Tu-Sa 18:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Kim Seng",
+    "cuisine": ["chinese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1944329,
+      "lat": 48.68552759977031
+    },
+    "opening_hours": null,
+    "website": "https://kimseng.fr/",
+    "phone": null
+  },
+  {
+    "name": "Line Wok",
+    "cuisine": ["asian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.2043883,
+      "lat": 48.680563299771535
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Suzette & Gino",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1829908,
+      "lat": 48.69414879976819
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Citadelle",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1779914,
+      "lat": 48.701093799766475
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Iberico",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1864224,
+      "lat": 48.684554199770545
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Mortissia",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1823755,
+      "lat": 48.68782669976976
+    },
+    "opening_hours": "Mo 11:30-14:30; Tu 11:45-14:45,19:00-22:30; Th 11:45-14:30,19:00-21:30; Fr 11:45-14:45,19:00-22:45; Sa 11:45-14:45,18:30-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Cafétéria",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1664905,
+      "lat": 48.69444959976809
+    },
+    "opening_hours": "08:00-18:00",
+    "website": "http://www.crous-nancy-metz.fr/",
+    "phone": null
+  },
+  {
+    "name": "Tanto Bene",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1770263,
+      "lat": 48.68952139976932
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Snack Blandan",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1709682,
+      "lat": 48.67446819977305
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Vapiano",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.177339,
+      "lat": 48.68934089976938
+    },
+    "opening_hours": "11:00-23:30; Fr 11:00-01:00; Sa 11:00-00:00",
+    "website": "https://nancy-maginot.vapiano.fr/",
+    "phone": null
+  },
+  {
+    "name": "La Bonne Tranche",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1805796,
+      "lat": 48.69349099976835
+    },
+    "opening_hours": "We-Sa 17:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Café du Bon Coin",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1659823,
+      "lat": 48.682169099771144
+    },
+    "opening_hours": "Mo-Su 09:30-20:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bar à Burger",
+    "cuisine": ["burger"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1905997,
+      "lat": 48.69351269976833
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Carpe Diem",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1670549,
+      "lat": 48.68865199976954
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Tiger",
+    "cuisine": ["indian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1936902,
+      "lat": 48.689432699769334
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Carte Blanche",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.18153,
+      "lat": 48.69479079976801
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La suite gourmande",
+    "cuisine": ["tacos", "naan"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1816483,
+      "lat": 48.68557949977031
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "O'Noodle",
+    "cuisine": ["chinese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1819708,
+      "lat": 48.69306039976845
+    },
+    "opening_hours": "We-Mo 15:00-23:00; Tu off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Cook-Ki",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1917071,
+      "lat": 48.686197799770156
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "3 Cageots",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1826448,
+      "lat": 48.68886219976949
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "O'Détour",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1910484,
+      "lat": 48.693207999768404
+    },
+    "opening_hours": null,
+    "website": "https://odetour.eatbu.com/",
+    "phone": null
+  },
+  {
+    "name": "La Corne d'Or",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1804733,
+      "lat": 48.69260739976856
+    },
+    "opening_hours": "Mo-Su 12:00-02:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Vietnam Street Food",
+    "cuisine": ["vietnamese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.185034,
+      "lat": 48.69047479976909
+    },
+    "opening_hours": "Mo-Su 11:30-14:30,18:30-22:30",
+    "website": "https://vnsfsas.wixsite.com/vietnamstreetfood",
+    "phone": "+33 6 41 41 31 61"
+  },
+  {
+    "name": "L'Escale",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1806365,
+      "lat": 48.69401659976821
+    },
+    "opening_hours": "Tu-Su 12:00-14:00,19:00-22:00; Sa 12:00-14:00,19:00-22:30",
+    "website": "https://www.restaurantlescale-nancy.fr/",
+    "phone": null
+  },
+  {
+    "name": "L'Arsenal",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1776717,
+      "lat": 48.69688919976751
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Kebab Melissa",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1834543,
+      "lat": 48.68774659976976
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Arcades",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1794594,
+      "lat": 48.69641629976761
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Esther",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1727086,
+      "lat": 48.69068609976903
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Domino's",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1474032,
+      "lat": 48.6965410997676
+    },
+    "opening_hours": "11:00-14:00,18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Au Merle Blanc",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.180947,
+      "lat": 48.68955209976931
+    },
+    "opening_hours": null,
+    "website": "https://www.aumerleblanc.fr/",
+    "phone": null
+  },
+  {
+    "name": "Brasserie Le Strasbourg",
+    "cuisine": ["georgian", "french", "coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1870567,
+      "lat": 48.6847329997705
+    },
+    "opening_hours": "Mo-Fr 08:00-12:00,15:15-17:00; Sa,Su off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Mille et une Saveurs",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1808609,
+      "lat": 48.70263319976606
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Sushi Kyo",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1858492,
+      "lat": 48.68855469976958
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Transparence",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1812296,
+      "lat": 48.692983799768456
+    },
+    "opening_hours": null,
+    "website": "https://restaurant-transparence.fr/",
+    "phone": null
+  },
+  {
+    "name": "La Pizza des Gourmets",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1655524,
+      "lat": 48.68242139977109
+    },
+    "opening_hours": "Mo-Su 11:00-14:00,18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Natsu",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1868275,
+      "lat": 48.685351399770354
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pokawa",
+    "cuisine": ["poke"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1814514,
+      "lat": 48.689371599769366
+    },
+    "opening_hours": "Mo-Su 11:00-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Top food",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1810149,
+      "lat": 48.689388999769356
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le 54",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1841307,
+      "lat": 48.690507599769084
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Schmilblick",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1864915,
+      "lat": 48.69198779976872
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Berthom",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.182253,
+      "lat": 48.693146599768426
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Vestiaire",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1779271,
+      "lat": 48.69859829976707
+    },
+    "opening_hours": "Mo-Sa 11:30-13:30,18:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Ambassy",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1755897,
+      "lat": 48.690984399768965
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Tournesols",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1962445,
+      "lat": 48.6843505997706
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Table du Nico",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1918582,
+      "lat": 48.686321799770134
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Osaka Street Food",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1809865,
+      "lat": 48.693902199768246
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bouche à Oreilles",
+    "cuisine": ["cheese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1809904,
+      "lat": 48.69073229976901
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Antoinette Restaurant Nancy",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1881767,
+      "lat": 48.691416099768844
+    },
+    "opening_hours": "Tu-Th 11:30-13:30, 18:00-21:00; Fr 11:30-13:30, 18:00-21:30; Sa 12:00-21:30",
+    "website": "https://antoinette.sharies.co",
+    "phone": null
+  },
+  {
+    "name": "French Coffee Shop",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1842001,
+      "lat": 48.690949099768964
+    },
+    "opening_hours": "Mo-Sa 10:00-19:00; Su 14:00-19:00",
+    "website": "https://frenchcoffeeshop.com/shop/nancy",
+    "phone": null
+  },
+  {
+    "name": "Koboon",
+    "cuisine": ["thai"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1912109,
+      "lat": 48.69328809976838
+    },
+    "opening_hours": null,
+    "website": "https://www.koboon-resto.com/",
+    "phone": null
+  },
+  {
+    "name": "Le Café des Arts",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1824583,
+      "lat": 48.69377839976826
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Maison dans le Parc",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1851687,
+      "lat": 48.69418489976818
+    },
+    "opening_hours": "We-Sa 12:00-13:30, 19:30-21:00, Su 12:00-14:00",
+    "website": "https://lamaisondansleparc.com/",
+    "phone": "+33 3 83 19 03 57"
+  },
+  {
+    "name": "Green Kebab & Tacos",
+    "cuisine": ["kebab", "tacos"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1841329,
+      "lat": 48.68870389976952
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bluën",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1809029,
+      "lat": 48.695843799767744
+    },
+    "opening_hours": "Tu-Sa 10:00-19:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bouillon Lafayette",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.180566,
+      "lat": 48.6939977997682
+    },
+    "opening_hours": null,
+    "website": "https://www.bouillonlafayette.fr/",
+    "phone": null
+  },
+  {
+    "name": "L'Ardoise",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1807974,
+      "lat": 48.693855199768244
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Charles III",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.181784,
+      "lat": 48.688654199769545
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Penalty",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1698579,
+      "lat": 48.68935899976937
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Gaufres Lorraines",
+    "cuisine": ["gaufres"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.183248,
+      "lat": 48.69872489976705
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Plantation",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1744872,
+      "lat": 48.69092209976899
+    },
+    "opening_hours": "Jul-Aug We 18:00-24:00; Jul-Aug Th-Sa 20:00-02:00",
+    "website": "https://rhumerielaplantation.fr/",
+    "phone": null
+  },
+  {
+    "name": "Céline food",
+    "cuisine": ["syrian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.193728,
+      "lat": 48.68935839976938
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Hungry Sushi",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1772376,
+      "lat": 48.68414789977066
+    },
+    "opening_hours": "Mo-Sa 11:00-14:00,18:00-22:00; Su 18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Verdine",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1648958,
+      "lat": 48.68198539977117
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Karadeniz",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1794647,
+      "lat": 48.69230049976865
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Mac Carthy",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1774743,
+      "lat": 48.692277599768644
+    },
+    "opening_hours": "Mo-Su 16:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "À la Table du Bon Roi Stanislas",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1809453,
+      "lat": 48.693772499768265
+    },
+    "opening_hours": "Mo,We 19:15-21:30; Tu,Th-Sa 12:15-13:30,19:15-21:30; Su 12:15-13:30",
+    "website": "http://latabledestan.com",
+    "phone": "+33 3 83353652"
+  },
+  {
+    "name": "La Toq'",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1786761,
+      "lat": 48.69622309976766
+    },
+    "opening_hours": "Tu-Sa 12:00-13:30,19:30-21:30; Su 12:00-13:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Bacchanales",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1853775,
+      "lat": 48.69049709976908
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Quokka Café",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.184479,
+      "lat": 48.69025039976914
+    },
+    "opening_hours": "Tu-Sa 09:00-15:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Made in France",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1791435,
+      "lat": 48.69663589976755
+    },
+    "opening_hours": "Mo-Th 11:00-15:00,18:00-21:00; Fr 11:00-15:00,18:00-22:00; Sa 11:00-22:00",
+    "website": "https://www.le-made-in-france.fr/restaurants-hiver/made-in-france-nancy-stepvre.html",
+    "phone": null
+  },
+  {
+    "name": "Régalo Pizzas",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1684084,
+      "lat": 48.6835942997708
+    },
+    "opening_hours": "Mo-Fr 11:30-13:30,18:30-22:00; Sa-Su 18:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le P'tit Liégeois",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1806881,
+      "lat": 48.68990179976922
+    },
+    "opening_hours": "Tu-Sa 13:30-19:00; Su,Mo off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Level Up!",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1730415,
+      "lat": 48.68760349976981
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Resto' Cours Léopold",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1772029,
+      "lat": 48.695015899767974
+    },
+    "opening_hours": "11:30-13:30,18:30-20:30",
+    "website": "https://www.crous-lorraine.fr/restaurant/cours-leopold/",
+    "phone": null
+  },
+  {
+    "name": "Restaurant Caspienne",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1712453,
+      "lat": 48.69059079976906
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Shakespeare",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1791665,
+      "lat": 48.68466419977054
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Little Faubourg",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1775633,
+      "lat": 48.70102419976648
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Milano Pizza",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1772994,
+      "lat": 48.67621799977261
+    },
+    "opening_hours": "Mo-Fr 11:15-13:15,17:45-21:30; Sa 17:45-21:30; Su off",
+    "website": "http://milanopizza-nancy.fr/",
+    "phone": null
+  },
+  {
+    "name": "Le 27",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1807965,
+      "lat": 48.69225049976866
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "The Riveter",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.191333711623936,
+      "lat": 48.69545779210765
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les P'tits Oignons",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1713026,
+      "lat": 48.68644669977008
+    },
+    "opening_hours": "Mo-Sa 11:30-14:00,19:00-22:00; Su 19:00-22:00",
+    "website": "https://lesptitsoignons.fr/",
+    "phone": null
+  },
+  {
+    "name": "Mamie Branchée",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1849359,
+      "lat": 48.692664899768545
+    },
+    "opening_hours": "Mo-Fr 19:00-22:00; Sa 19:00-22:30; Su 11:30-15:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "B comme bœuf",
+    "cuisine": ["meat"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1831208,
+      "lat": 48.689257099769385
+    },
+    "opening_hours": "Th-Sa 11:00-14:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chinexpress",
+    "cuisine": ["chinese"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1924177,
+      "lat": 48.68177649977124
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Yom Thaï Food",
+    "cuisine": ["thai"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1860099,
+      "lat": 48.68581099977025
+    },
+    "opening_hours": "Mo-Sa 11:30-15:00,18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Capu",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1806175,
+      "lat": 48.69219199976867
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Mon Caribou",
+    "cuisine": ["canadian"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1749588,
+      "lat": 48.69111079976893
+    },
+    "opening_hours": "Tu-Sa 11:30-14:00,18:30-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Ruin Bär",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1820705,
+      "lat": 48.691154199768924
+    },
+    "opening_hours": "Th-Sa 18:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'impromptu",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.183238,
+      "lat": 48.68929539976937
+    },
+    "opening_hours": "Tu-Sa 09:00-16:00; Su 11:00-16:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Dolce Pizza",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1773391,
+      "lat": 48.67767839977225
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Kebab Cinq Étoiles",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1717037,
+      "lat": 48.684003299770694
+    },
+    "opening_hours": "Mo,Tu 11:30-14:00,17:30-01:00; Th,Fr 11:30-14:00,17:30-02:30; Sa 17:30-02:30; Su 17:30-01:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Maison du Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1876071,
+      "lat": 48.68763369976978
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Nancy Food Pizzas - Au feu de bois",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1784776,
+      "lat": 48.698798499767015
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chez Henri",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1851452,
+      "lat": 48.69022129976913
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Khan",
+    "cuisine": ["indian", "pakistani"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1828671,
+      "lat": 48.68693669976997
+    },
+    "opening_hours": "Mo 18:30-23:00; Tu-Su 11:30-14:30,18:30-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "The Burger Factory",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1855315,
+      "lat": 48.69053829976908
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Eden",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1803917,
+      "lat": 48.69621539976767
+    },
+    "opening_hours": "Tu,Sa 19:00-21:00; We-Fr 12:00-13:00,19:00-21:00; Su 12:00-13:00",
+    "website": null,
+    "phone": "+33 3 83 31 44 63"
+  },
+  {
+    "name": "Les Oliviers",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.177814,
+      "lat": 48.6956139997678
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83305330"
+  },
+  {
+    "name": "L'Institut",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1781542,
+      "lat": 48.69856269976709
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "TT Black Burger",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1869667,
+      "lat": 48.69241289976861
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Central Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1890038,
+      "lat": 48.68389029977073
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Médre Kebab Pizza",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1609227,
+      "lat": 48.685665699770276
+    },
+    "opening_hours": "Mo-Sa 11:00-14:00, Su 18:00-24:00",
+    "website": null,
+    "phone": "+33 3 83 35 95 43"
+  },
+  {
+    "name": "Fujiyama",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1831929,
+      "lat": 48.689054599769435
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Maltazar",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1850441,
+      "lat": 48.6903899997691
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Meltdown",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1830492,
+      "lat": 48.68742949976983
+    },
+    "opening_hours": "Mo,Tu 17:00-00:30; We-Sa 17:00-01:30",
+    "website": "https://www.meltdown.bar/nancy",
+    "phone": "+33 6 33 99 42 44"
+  },
+  {
+    "name": "Au Coin de la Rue",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1794206,
+      "lat": 48.69553699976783
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Tbilissi",
+    "cuisine": ["georgian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1954012,
+      "lat": 48.68025439977162
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Couscousserie des Petites Familles",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1794,
+      "lat": 48.69574279976776
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "El Gusto",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1845888,
+      "lat": 48.69116739976892
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Lor'n food",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1752494,
+      "lat": 48.68906709976943
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bar La Cigale",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1889562,
+      "lat": 48.68391849977071
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bistrot de Gilles",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1808488,
+      "lat": 48.69407339976819
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Jack Tavern",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1812755,
+      "lat": 48.694184799768166
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Prince",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1780227,
+      "lat": 48.68538259977033
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pizza Pasta",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1723469,
+      "lat": 48.69013099976917
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pinocchio",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1790042,
+      "lat": 48.69639289976762
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Émilie Sushi Bar",
+    "cuisine": ["sushi"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1735683,
+      "lat": 48.67349629977327
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Frères Marchand",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1789518,
+      "lat": 48.697391599767386
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Division",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1915369,
+      "lat": 48.69344799976835
+    },
+    "opening_hours": "Mo-Sa 12:00-14:00,19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Varadéro",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1809391,
+      "lat": 48.69554479976782
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Dizneuf",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1823196,
+      "lat": 48.68883159976949
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Verre Anis",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1676326,
+      "lat": 48.69233299976862
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "O Panini Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.195812,
+      "lat": 48.691982999768705
+    },
+    "opening_hours": "Mo-Fr 11:30-14:30,18:00-00:00; Sa 18:00-00:00; Su 11:30-14:30,18:00-00:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Esperluette",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1748366,
+      "lat": 48.67179929977375
+    },
+    "opening_hours": "Mo-Fr 12:00-14:00; Th 07:00-08:30,12:00-14:00",
+    "website": null,
+    "phone": "+33 383 571 112"
+  },
+  {
+    "name": "Le Greniel à Sel",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1794808,
+      "lat": 48.69353779976832
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brasserie Le Midi Pile",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.176654,
+      "lat": 48.701090899766456
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Factéria",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1657463,
+      "lat": 48.69539519976787
+    },
+    "opening_hours": "08:00-18:00",
+    "website": "http://www.crous-nancy-metz.fr/",
+    "phone": null
+  },
+  {
+    "name": "Le Gustave",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1804347,
+      "lat": 48.69378329976828
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Petit Gavroche",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1710625,
+      "lat": 48.6838931997707
+    },
+    "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-00:00; Sa 09:00-00:00",
+    "website": null,
+    "phone": "+33 3 54 51 51 32"
+  },
+  {
+    "name": "Anadolu",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1857395,
+      "lat": 48.68653779977007
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Terroirs",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1662058,
+      "lat": 48.68138689977133
+    },
+    "opening_hours": "Mo,Tu,Sa 10:00-19:30; We 10:00-19:00; Th-Fr 10:00-21:30; Su off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bread and Coffee",
+    "cuisine": ["coffee_shop", "sandwich"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1693244,
+      "lat": 48.6766387997725
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Cadet",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1659939,
+      "lat": 48.68202169977117
+    },
+    "opening_hours": "Tu,We 12:00-13:00; Th-Sa 12:00-13:00,19:00-20:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1766518,
+      "lat": 48.68940819976935
+    },
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-20:00; Su,PH 08:30-20:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Capri",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1813693,
+      "lat": 48.69302609976844
+    },
+    "opening_hours": null,
+    "website": "https://www.pizzeria-lecapri.fr/",
+    "phone": null
+  },
+  {
+    "name": "L'Assiette Sympa",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1932778,
+      "lat": 48.6859683997702
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Burger Kebab",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1760135,
+      "lat": 48.68937909976937
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bar du Crystal",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1781096,
+      "lat": 48.69014449976918
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Pissenlits",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1819912,
+      "lat": 48.688346799769626
+    },
+    "opening_hours": null,
+    "website": "https://www.les-pissenlits.com/",
+    "phone": null
+  },
+  {
+    "name": "IT Italian Trattoria",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1815918,
+      "lat": 48.68941579976934
+    },
+    "opening_hours": "Mo-Sa 08:00-23:00; Tu-Th 08:00-22:30",
+    "website": "https://it-trattoria.com/restaurant/nancy-henri-mengin",
+    "phone": null
+  },
+  {
+    "name": "Green Bagel Café",
+    "cuisine": ["bagel"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1798144,
+      "lat": 48.691315699768865
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Palais Gourmand",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1789986,
+      "lat": 48.69866969976705
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Wildness",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.2044594,
+      "lat": 48.68104759977143
+    },
+    "opening_hours": "Tu-Fr 16:00-22:00; We,Sa 12:00-22:00; Su 11:00-17:00",
+    "website": "https://www.wildness.fr/",
+    "phone": null
+  },
+  {
+    "name": "Kounagi",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1878597,
+      "lat": 48.68452749977056
+    },
+    "opening_hours": "Mo-Fr 11:30-14:00,18:30-21:30; Su 18:30-21:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": null,
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1789195,
+      "lat": 48.69634719976763
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bazar à Pierrot",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1925664,
+      "lat": 48.69170819976878
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Yourte",
+    "cuisine": ["siberian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1707586,
+      "lat": 48.68653959977006
+    },
+    "opening_hours": "Mo,Tu 11:45-14:00; We-Fr 11:45-14:00,19:00-22:00; Sa 19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Instant Pause",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1764255,
+      "lat": 48.705589599765354
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Il Ristorante",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.198797,
+      "lat": 48.691530199768835
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chez 86",
+    "cuisine": ["chinese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1715722,
+      "lat": 48.701752599766294
+    },
+    "opening_hours": "Mo-Fr 11:45-13:30,19:00-21:00; We off; Sa 19:00-21:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Gibraltar",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.182755,
+      "lat": 48.68796669976968
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "The Love Boat Bar",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.179662,
+      "lat": 48.69345519976835
+    },
+    "opening_hours": null,
+    "website": "http://www.theloveboat-bar.com/",
+    "phone": null
+  },
+  {
+    "name": "Vindiou",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1792032,
+      "lat": 48.69684359976753
+    },
+    "opening_hours": "Tu,We 18:00-24:00; Th-Sa 18:00-01:00",
+    "website": "http://vindiou-nancy.fr/",
+    "phone": "+33 9 86 17 34 24"
+  },
+  {
+    "name": "Nefis Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1811121,
+      "lat": 48.68359019977079
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 9 52 92 06 13"
+  },
+  {
+    "name": "La Mer Égée",
+    "cuisine": ["turkish"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1791159,
+      "lat": 48.69646509976759
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "King's Head",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1805421,
+      "lat": 48.69428409976814
+    },
+    "opening_hours": "Mo-We 17:30-01:00; Th-Sa 17:30-02:00",
+    "website": null,
+    "phone": "+33 3 83211481"
+  },
+  {
+    "name": "Honey",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1800554,
+      "lat": 48.690764399769016
+    },
+    "opening_hours": "Mo,Tu 11:00-15:00; We-Fr 11:00-15:00,18:00-22:00; Sa 11:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Etna",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1699424,
+      "lat": 48.68621919977014
+    },
+    "opening_hours": "Mo 12:00-14:00; Tu-Fr 12:00-14:00,19:00-22:00; Sa 19:00-22:00",
+    "website": "http://etna-nancy.com/",
+    "phone": "+33 3 83 28 23 04"
+  },
+  {
+    "name": "Made in France",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1897436,
+      "lat": 48.69260759976855
+    },
+    "opening_hours": "Mo,Tu 11:30-14:30; We-Sa 11:30-14:30,18:30-21:00",
+    "website": null,
+    "phone": "+33 3 83322044"
+  },
+  {
+    "name": "Khao Thip",
+    "cuisine": ["thai"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1826749,
+      "lat": 48.6887845997695
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le RDV",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1744805,
+      "lat": 48.69062989976905
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chez Sercan",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.17769,
+      "lat": 48.67682159977246
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Juste Pause",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1817398,
+      "lat": 48.6859488997702
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Loritz",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1957234,
+      "lat": 48.68534489977035
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Gentilhommière",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.180963,
+      "lat": 48.69410389976819
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le petit Jean Lam",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.182842,
+      "lat": 48.69395769976823
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Médiéval",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.177693,
+      "lat": 48.696028399767705
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "City Burger",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1789726,
+      "lat": 48.68451109977057
+    },
+    "opening_hours": "Mo-Th 11:00-15:00,17:30-01:00, Fr 17:30-01:00, Sa 11:00-02:00, Su 18:00-01:00",
+    "website": null,
+    "phone": "+33 9 81 08 48 20"
+  },
+  {
+    "name": "L'Assiette Sympa",
+    "cuisine": ["turkish"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1724653,
+      "lat": 48.67244599977355
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chez Vitto",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1836665,
+      "lat": 48.6899966997692
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Retrogusto",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1805358,
+      "lat": 48.69277349976852
+    },
+    "opening_hours": "Tu-Sa 12:00-13:30,19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Piazzetta",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1807854,
+      "lat": 48.69416139976817
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Quincaillerie",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1844285,
+      "lat": 48.68999449976921
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Fox Den",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1747589,
+      "lat": 48.69807719976721
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Jet Set",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1855994,
+      "lat": 48.68881389976949
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bistrot de L'Étoile",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1696248,
+      "lat": 48.67823729977212
+    },
+    "opening_hours": "Mo-Th 08:00-15:00; Fr-Sa 08:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Triptik",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.179835,
+      "lat": 48.692312499768626
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Thé citron",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1818397,
+      "lat": 48.693009599768466
+    },
+    "opening_hours": "Tu-Sa 10:00-18:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Them O Bar",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1659603,
+      "lat": 48.68404279977069
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Berbère",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1779247,
+      "lat": 48.70104279976647
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "À la Maison",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1769615,
+      "lat": 48.6924349997686
+    },
+    "opening_hours": "Mo-Th 08:00-22:00; Fr 08:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "M.Houmous",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1857992,
+      "lat": 48.6864567997701
+    },
+    "opening_hours": "Tu-Fr 11:30-14:00,18:30-22:00; Sa 11:30-15:00,18:30-22:00",
+    "website": null,
+    "phone": "+33 356581718"
+  },
+  {
+    "name": "Piopa",
+    "cuisine": ["italian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1781722,
+      "lat": 48.689313699769386
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83 35 47 13"
+  },
+  {
+    "name": "Biscotto",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1791317,
+      "lat": 48.696756599767525
+    },
+    "opening_hours": "Mo-Sa 09:00-16:00",
+    "website": null,
+    "phone": "+33 3 83 46 68 67"
+  },
+  {
+    "name": "Brexit",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1840396,
+      "lat": 48.690200599769156
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Petite Cuillère",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1784922,
+      "lat": 48.69800459976721
+    },
+    "opening_hours": "Mo-Fr 12:00-14:00, 19:00-21:00; Sa 12:00-14:00, 19:00-22:00; Su 12:00-14:00",
+    "website": "https://www.lapetitecuillere.fr/",
+    "phone": null
+  },
+  {
+    "name": "Le Médrevil",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1610798,
+      "lat": 48.68574549977027
+    },
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Tartes de Stanislas",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1817081,
+      "lat": 48.693129599768426
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Laisse Le Bon Temps Rouler",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1740778,
+      "lat": 48.68848399976959
+    },
+    "opening_hours": "Mo-Fr 15:30+",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Minos",
+    "cuisine": ["greek"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1821157,
+      "lat": 48.68817749976966
+    },
+    "opening_hours": "Mo-Sa 12:00-14:00,19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Crêpes Street",
+    "cuisine": ["crepe"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1836392,
+      "lat": 48.687129299769936
+    },
+    "opening_hours": "Tu-Su 15:00-22:00; Mo off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "City Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1817539,
+      "lat": 48.69192239976873
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Glaces Lorraines",
+    "cuisine": null,
+    "type": "ice_cream",
+    "geo_point_2d": {
+      "lon": 6.1832872,
+      "lat": 48.6940343997682
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les pizzas de chez nous",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1811645,
+      "lat": 48.692964199768475
+    },
+    "opening_hours": "Tu-Su 12:00-14:00,19:00-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Zhong Pin",
+    "cuisine": ["sushi"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1730019,
+      "lat": 48.68397169977069
+    },
+    "opening_hours": null,
+    "website": "https://www.zhong-pin.fr/",
+    "phone": null
+  },
+  {
+    "name": "Sole Mio",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1956395,
+      "lat": 48.69739389976738
+    },
+    "opening_hours": null,
+    "website": "http://pizza-solemio.fr/",
+    "phone": null
+  },
+  {
+    "name": "Fami Thé",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1803795,
+      "lat": 48.69156349976882
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Primatiale",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1853018,
+      "lat": 48.690476799769094
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Ville de Nancy Restaurant Municipal",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1850737,
+      "lat": 48.69300459976844
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1831638,
+      "lat": 48.690016199769204
+    },
+    "opening_hours": null,
+    "website": "https://www.restaurants.mcdonalds.fr/mcdonalds-nancy-centre",
+    "phone": null
+  },
+  {
+    "name": "Azako Ramen",
+    "cuisine": ["ramen"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1825196,
+      "lat": 48.68865139976953
+    },
+    "opening_hours": "Mo-Sa 11:30-15:00,18:30-22:30; Su off",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Shalimar",
+    "cuisine": ["indian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1853033,
+      "lat": 48.68676889977001
+    },
+    "opening_hours": "Mo-Su 11:30-14:30,18:00-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Presto Pizzas",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1858192,
+      "lat": 48.684460599770574
+    },
+    "opening_hours": "Mo off; Tu-Su 18:00-22:00",
+    "website": "https://prestopizzas-nancy.fr/",
+    "phone": "+33 3 83354092"
+  },
+  {
+    "name": "Le Petit Pain",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1939212,
+      "lat": 48.68579969977023
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chez Bébert",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1801536,
+      "lat": 48.69062999976906
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Resto Istanbul Rapide",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1894034,
+      "lat": 48.68365389977079
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Fourmis Rouges",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1989108,
+      "lat": 48.69309849976844
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Resto' Saurupt",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.184082885257285,
+      "lat": 48.680503634515894
+    },
+    "opening_hours": "11:30-13:30,18:30-20:00",
+    "website": "https://www.crous-lorraine.fr/restaurant/saurupt/",
+    "phone": "+33 3 83 53 28 62"
+  },
+  {
+    "name": "Allo Wok",
+    "cuisine": ["asian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1914409,
+      "lat": 48.6863997997701
+    },
+    "opening_hours": null,
+    "website": "http://www.allowoknancy.fr/",
+    "phone": null
+  },
+  {
+    "name": "Racine",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.182087,
+      "lat": 48.69309589976845
+    },
+    "opening_hours": "Tu-Sa 12:00-13:30,19:00-21:15; Su,Mo off",
+    "website": null,
+    "phone": "+33 9 86 33 24 20"
+  },
+  {
+    "name": "Maison Kanazawa",
+    "cuisine": ["japanese"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1721383,
+      "lat": 48.672865099773446
+    },
+    "opening_hours": "Tu-Fr 11:30-14:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "KFC",
+    "cuisine": ["chicken"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1809571,
+      "lat": 48.690206099769156
+    },
+    "opening_hours": "Mo-Su 11:00-23:00; Fr,Sa 11:00-24:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "O Chien Rouge",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.169908364969387,
+      "lat": 48.69657072735586
+    },
+    "opening_hours": "Mo-We 07:00-20:00; Th-Fr 07:00-00:00",
+    "website": "http://www.ochienrouge.fr",
+    "phone": "+33 9 70915426"
+  },
+  {
+    "name": "La Fabrique de Bières",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1947376,
+      "lat": 48.695458199767856
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83 33 46 69"
+  },
+  {
+    "name": "Le Ch'timi",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.179726,
+      "lat": 48.69654669976757
+    },
+    "opening_hours": "Mo 14:00-01:00, Tu 11:00-01:00, We 11:00-02:00, Th 11:00-02:00, Fr 11:00-02:00, Sa 10:30-02:00, Su 09:30-02:00",
+    "website": null,
+    "phone": "+33 3 83328276"
+  },
+  {
+    "name": "Les Docks",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1849085,
+      "lat": 48.691658499768806
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pizza Hut",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1715743,
+      "lat": 48.68604699977018
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Méditerranéen",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1881922,
+      "lat": 48.68754319976981
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Table de Bacchus",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1814486,
+      "lat": 48.69421089976815
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83375577"
+  },
+  {
+    "name": "Subway",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1835283,
+      "lat": 48.689519799769336
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Gentilly",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.13885,
+      "lat": 48.694932999767985
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Gaspard le Montagnard",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1792171,
+      "lat": 48.69706289976745
+    },
+    "opening_hours": "Tu-Sa 11:00-14:30,18:30-22:00; Su 18:30-22:00",
+    "website": "https://www.gaspardlemontagnard.fr/",
+    "phone": "+33 6 65 03 78 76"
+  },
+  {
+    "name": "L'Express Take Away",
+    "cuisine": ["burger", "tacos", "sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.175395,
+      "lat": 48.689190599769404
+    },
+    "opening_hours": "Mo-Su 09:00-24:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Allo Pizza",
+    "cuisine": ["pizza", "burger", "tacos"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1611466,
+      "lat": 48.689247899769384
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Source",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1778932,
+      "lat": 48.6956715997678
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "GOMU Nancy",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1810295,
+      "lat": 48.68941999976935
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brasserie Saint-Nicolas",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1869329,
+      "lat": 48.68806579976969
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Djerba",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1877191,
+      "lat": 48.68787879976972
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Mojo",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1802935,
+      "lat": 48.690661999769056
+    },
+    "opening_hours": "Tu-Sa 18:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Barbara Kitchen",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1798208,
+      "lat": 48.689323399769386
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Voyou",
+    "cuisine": ["wine", "burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1815642,
+      "lat": 48.693092999768425
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Boîte à Pizza",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1720015,
+      "lat": 48.690026699769184
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brasserie de la Pépinière",
+    "cuisine": ["regional"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.183808879249839,
+      "lat": 48.69694997712549
+    },
+    "opening_hours": "PH,Tu-Su 10:00-20:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Piperno",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1804571,
+      "lat": 48.68926379976938
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Chez Maître Marcel",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1716185,
+      "lat": 48.690139899769164
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Akoya Sushi",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1765845,
+      "lat": 48.701183199766426
+    },
+    "opening_hours": "Tu-Su 12:00-14:00,19:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "À La Bonne Gammelle",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1980181,
+      "lat": 48.68922009976939
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "T'Chiz",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.2021765,
+      "lat": 48.69114449976892
+    },
+    "opening_hours": "Mo-Th 11:30-14:00,18:30-22:30; Fr 11:30-14:00,18:30-23:30; Sa 12:00-14:30,18:30-23:30; Su 12:00-15:00,18:30-22:30",
+    "website": "https://www.tchiz-nancy.fr/",
+    "phone": "+33 3 83 47 29 45"
+  },
+  {
+    "name": "Zeugma",
+    "cuisine": ["turkish"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.184944,
+      "lat": 48.68874759976951
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pizza Fino",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1987291,
+      "lat": 48.677850399772204
+    },
+    "opening_hours": null,
+    "website": "https://www.pizzafino.fr/",
+    "phone": null
+  },
+  {
+    "name": "Nemo Poke Bowl",
+    "cuisine": ["coffee_shop", "chicken", "international", "seafood"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1812953,
+      "lat": 48.69172859976879
+    },
+    "opening_hours": "Mo-Su 12:00-14:00,18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Takos King",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1827576,
+      "lat": 48.68979059976928
+    },
+    "opening_hours": "Mo-Su 11:30-23:00",
+    "website": null,
+    "phone": "+33 9 52 87 97 45"
+  },
+  {
+    "name": "The Achievement",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1778197,
+      "lat": 48.68364399977078
+    },
+    "opening_hours": "Mo-Sa 17:00-02:00",
+    "website": "http://theachievement.fr",
+    "phone": "+33 6 23337897"
+  },
+  {
+    "name": "Le Palais de Jaipur",
+    "cuisine": ["indian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1811812,
+      "lat": 48.69416259976818
+    },
+    "opening_hours": "12:00-14:30,19:00-22:30",
+    "website": "https://www.palaisdejaipur.com/",
+    "phone": null
+  },
+  {
+    "name": "Chez Vassili",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1878591,
+      "lat": 48.698915899766995
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83306129"
+  },
+  {
+    "name": "Brasserie L'Académie",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1773135,
+      "lat": 48.6925411997686
+    },
+    "opening_hours": "Mo-Fr 11:00-24:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Little Delirium Café",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1782701,
+      "lat": 48.68806029976967
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pont 29",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1820549,
+      "lat": 48.68826019976964
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "O' Pères Peinards",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1843028,
+      "lat": 48.69070849976903
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Miss Cookies Coffee",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1808559,
+      "lat": 48.68990169976922
+    },
+    "opening_hours": "Mo-Sa 09:30-19:00",
+    "website": "https://www.misscookies.com/boutiques.html",
+    "phone": null
+  },
+  {
+    "name": "Le Medea",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1715852,
+      "lat": 48.69044069976909
+    },
+    "opening_hours": "Mo-Th 11:00-23:00, Fr-Sa 11:00-02:00, Su 17:00-23:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Petit Malouin",
+    "cuisine": ["crepe"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1842671,
+      "lat": 48.68660169977005
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Basilic & Co",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1815227,
+      "lat": 48.69223159976865
+    },
+    "opening_hours": "11:30-14:00,18:00-22:00; Fr,Sa 11:30-14:00,18:00-22:30",
+    "website": "https://basilic-and-co.com/restaurant-pizzeria-nancy",
+    "phone": null
+  },
+  {
+    "name": "Poké Bar",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1810953,
+      "lat": 48.68957299976932
+    },
+    "opening_hours": "Mo-Sa 11:00-15:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le BoucL'Art",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1923419,
+      "lat": 48.696386399767626
+    },
+    "opening_hours": "We-Fr 12:00-19:00; Sa 14:00-19:00; Su 14:00-20:00",
+    "website": "http://www.le-bouclart.com/",
+    "phone": null
+  },
+  {
+    "name": "Chiche et Bon",
+    "cuisine": ["japanese"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1649222,
+      "lat": 48.67266499977349
+    },
+    "opening_hours": "Mo-Fr 11:30-13:45,18:30-21:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Domino's",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1690031,
+      "lat": 48.66906799977439
+    },
+    "opening_hours": "Mo-Su 11:30-13:30,18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Muraille de Chine",
+    "cuisine": ["chinese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1758881,
+      "lat": 48.691591999768804
+    },
+    "opening_hours": "Tu-Sa 12:00-13:30,19:00-21:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Jardin des Thermes",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1697988,
+      "lat": 48.676018599772675
+    },
+    "opening_hours": null,
+    "website": "http://www.lejardindesthermes.net",
+    "phone": null
+  },
+  {
+    "name": "Parcelle",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1791722,
+      "lat": 48.692357499768626
+    },
+    "opening_hours": "Tu-Sa 12:00-13:30;19:00-21:15",
+    "website": "https://parcelle-nancy.com/",
+    "phone": null
+  },
+  {
+    "name": "PopKfé",
+    "cuisine": ["burger"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1962543,
+      "lat": 48.692207499768664
+    },
+    "opening_hours": "12:00-15:00,18:30-00:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": ["burger"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.198946821067925,
+      "lat": 48.679089796953505
+    },
+    "opening_hours": "Mo-Tu 09:00-02:00; Fr-Sa 08:00-08:00; Su 08:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Hacienda",
+    "cuisine": ["mexican"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1826424,
+      "lat": 48.68746219976983
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Vache Burger",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1854217,
+      "lat": 48.69058539976906
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Monsieur Fuji Sushi",
+    "cuisine": ["sushi"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1827744,
+      "lat": 48.690543799769074
+    },
+    "opening_hours": "Mo 18:30-22:00; Tu-Sa 11:30-14:00,18:30-22:00",
+    "website": null,
+    "phone": "+33 3 83 17 00 28"
+  },
+  {
+    "name": "Mexillico",
+    "cuisine": ["mexican"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1811871,
+      "lat": 48.6928221997685
+    },
+    "opening_hours": null,
+    "website": "https://mexillico.fr/",
+    "phone": null
+  },
+  {
+    "name": "Brasserie Mon Désert",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1788068,
+      "lat": 48.68446489977057
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Avant Première",
+    "cuisine": ["regional"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1956945,
+      "lat": 48.691354599768864
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Bagatelle",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.182733,
+      "lat": 48.69411559976818
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "ô cozy",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1818195,
+      "lat": 48.68858039976956
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Brasserie de la Croix",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1750331,
+      "lat": 48.702770799766036
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1831815,
+      "lat": 48.691100799768925
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pitaya",
+    "cuisine": ["thai"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1847706,
+      "lat": 48.691434599768854
+    },
+    "opening_hours": "Mo-Fr 11:30-14:30,18:30-22:00; Sa-Su 11:30-22:30; PH closed",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Café Cuba",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1774797,
+      "lat": 48.69260169976855
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Salon de Thé Arabica",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1874686,
+      "lat": 48.687757799769756
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Olivier",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1753725,
+      "lat": 48.689611099769294
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Plaise Café",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1386653,
+      "lat": 48.69194979976873
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Kiosque",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1780685,
+      "lat": 48.69348079976834
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83 30 42 07"
+  },
+  {
+    "name": "Aux Délices du Palais",
+    "cuisine": ["french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1796704,
+      "lat": 48.69673679976753
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": "+33 3 83304419"
+  },
+  {
+    "name": "Le Chagnot",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1824189,
+      "lat": 48.69066879976903
+    },
+    "opening_hours": "Mo-Sa 07:30-22:00",
+    "website": null,
+    "phone": "+33 3 83321625"
+  },
+  {
+    "name": "Café Des Trolls",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1854517,
+      "lat": 48.691834699768755
+    },
+    "opening_hours": "Mo-Fr 07:30-02:00; Sa,Su 14:00-02:00",
+    "website": null,
+    "phone": "+33 3 83 32 57 83"
+  },
+  {
+    "name": null,
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.153215,
+      "lat": 48.70310039976594
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Karma",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1825917,
+      "lat": 48.68791429976972
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Full house",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1703788,
+      "lat": 48.6847493997705
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pomme de Pain",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1788275,
+      "lat": 48.68952449976933
+    },
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "website": "https://pommedepain.fr/restaurant/nancy-saint-jean/",
+    "phone": "+33 3 83379520"
+  },
+  {
+    "name": "King Pizza",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1418698,
+      "lat": 48.692467399768596
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Kimchi Bap",
+    "cuisine": ["korean"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.162985,
+      "lat": 48.684708699770525
+    },
+    "opening_hours": "Tu-Sa 11:30-13:30, Th-Fr 16:30-19:00, Sa 17:30-19:00, Su-Mo closed",
+    "website": "https://kimchi-bap.eatbu.com/",
+    "phone": "+33 6 59 39 91 17"
+  },
+  {
+    "name": "Line Sushi",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.182809,
+      "lat": 48.68860239976955
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "French Food",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1727719,
+      "lat": 48.69641369976762
+    },
+    "opening_hours": "Mo-Fr 10:00-16:00; Sa 10:00-14:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": null,
+    "cuisine": ["chinese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1754377,
+      "lat": 48.69093719976897
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Alsace à Table",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.180705,
+      "lat": 48.694034899768205
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Nicolas 54",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1694551,
+      "lat": 48.6694060997743
+    },
+    "opening_hours": "Mo-Fr 11:00-14:00,18:00-22:30; Sa,Su 11:00-14:00,18:00-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Resto Burger",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.187346,
+      "lat": 48.687851899769726
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Ippoudo Ramen",
+    "cuisine": ["japanese"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1842767,
+      "lat": 48.688171399769665
+    },
+    "opening_hours": "Mo-Sa 11:30-14:30,18:30-22:30; Su 18:30-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Black Baron",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.1797333,
+      "lat": 48.68469609977051
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Georges",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1958163,
+      "lat": 48.69552069976784
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Côté Sushi",
+    "cuisine": ["sushi"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1821433,
+      "lat": 48.68959219976931
+    },
+    "opening_hours": "Mo-Th 11:00-22:30; Fr-Sa 11:00-23:00; Su 11:00-22:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Bar des Vedettes",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1860293,
+      "lat": 48.685607499770285
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Ambassade",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1770651,
+      "lat": 48.67628509977261
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Friterie",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1753373,
+      "lat": 48.689299999769375
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Pizza Olto",
+    "cuisine": ["pizza"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1667495,
+      "lat": 48.67119599977386
+    },
+    "opening_hours": "Mo-Su 11:30-14:00,18:00-22:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Amazigh Café",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1976597,
+      "lat": 48.69381369976826
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Stan Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1818375,
+      "lat": 48.69316859976843
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Restaurant Universitaire de Médreville",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.158715580130084,
+      "lat": 48.684453739528514
+    },
+    "opening_hours": "Mo-Su 11:30-14:00",
+    "website": "https://www.crous-lorraine.fr/restaurant/medreville/",
+    "phone": "+33 3 83918899"
+  },
+  {
+    "name": "Bar du théâtre",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1717319,
+      "lat": 48.69608179976769
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Tacos Kebab",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1693988,
+      "lat": 48.69685519976751
+    },
+    "opening_hours": "Mo-Sa 11:00-14:00,17:30-24:00; Su 17:00-23:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Snack Marmaris",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1851445,
+      "lat": 48.69173489976877
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "L'Himalayan Yak",
+    "cuisine": ["sushi", "asian"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1710744,
+      "lat": 48.68681609977
+    },
+    "opening_hours": "Mo-Fr 11:30-14:30,18:30-22:30; Sa,Su 12:00-14:30,18:30-22:30",
+    "website": null,
+    "phone": "+33 3 57 29 94 11"
+  },
+  {
+    "name": "L'Arôme",
+    "cuisine": null,
+    "type": "pub",
+    "geo_point_2d": {
+      "lon": 6.189423,
+      "lat": 48.693724199768276
+    },
+    "opening_hours": "Mo-Su 14:00-02:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Arzum Kebab",
+    "cuisine": ["kebab"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1771804,
+      "lat": 48.68351379977081
+    },
+    "opening_hours": "Mo-Sa 11:00-02:00, Su 17:00-24:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Cour des Arts",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1826329,
+      "lat": 48.691602699768794
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "McCafé",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1832268,
+      "lat": 48.68995289976921
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Kebab",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1867043,
+      "lat": 48.69205529976868
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Le Touareg",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1879341,
+      "lat": 48.68741299976984
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Les Jardins d'Esther",
+    "cuisine": ["méditerranéenne", "french"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1743055,
+      "lat": 48.69821029976716
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "MadCat",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1792603,
+      "lat": 48.69663139976757
+    },
+    "opening_hours": "11:30-14:00,18:30-22:00",
+    "website": null,
+    "phone": "+33 610 250 677"
+  },
+  {
+    "name": "La Gavotte",
+    "cuisine": ["crepe"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1803447,
+      "lat": 48.69625759976765
+    },
+    "opening_hours": "Mo-Su 11:30-14:30, 18:45-21:30",
+    "website": null,
+    "phone": "+33 3 83 30 62 27"
+  },
+  {
+    "name": "The Reddington Bar",
+    "cuisine": null,
+    "type": "bar",
+    "geo_point_2d": {
+      "lon": 6.1780936,
+      "lat": 48.69978719976678
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Brûlerie",
+    "cuisine": ["coffee_shop"],
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1782966,
+      "lat": 48.69838129976713
+    },
+    "opening_hours": "Mo 10:00-15:00; Tu-Sa 10:00-18:30",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "La Fantasia",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1885597,
+      "lat": 48.687264499769874
+    },
+    "opening_hours": null,
+    "website": "http://www.lafantasianancy.com/",
+    "phone": null
+  },
+  {
+    "name": "La Romana",
+    "cuisine": ["pizza"],
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1816885,
+      "lat": 48.694579799768086
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Charle'miam",
+    "cuisine": ["sandwich"],
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.1610371,
+      "lat": 48.682766999771
+    },
+    "opening_hours": "Mo-Th 07:45-16:15; Fr 07:45-14:00",
+    "website": null,
+    "phone": null
+  },
+  {
+    "name": "Jean Lamour",
+    "cuisine": null,
+    "type": "restaurant",
+    "geo_point_2d": {
+      "lon": 6.1827025,
+      "lat": 48.693854699768266
+    },
+    "opening_hours": null,
+    "website": "http://www.brasserie-jeanlamour.com/",
+    "phone": "+33 3 83325353"
+  },
+  {
+    "name": "Café Leffe",
+    "cuisine": null,
+    "type": "cafe",
+    "geo_point_2d": {
+      "lon": 6.1752755,
+      "lat": 48.689580699769294
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  }
+]

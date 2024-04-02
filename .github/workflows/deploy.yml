@@ -36,7 +36,8 @@ jobs:
         run: npm install -g caprover
 
       - name: Deploy to CapRover
-        env:
-          CAPROVER_PASSWORD: ${{ secrets.CAPROVER_PASSWORD }}
-          CAPROVER_HOST: ${{ secrets.CAPROVER_HOST }}
-        run: caprover deploy -h ${CAPROVER_HOST} -p ${CAPROVER_PASSWORD} -a tes
+        uses: floms/action-caprover@v1
+        with:
+          host: ${{ secrets.CAPROVER_HOST }}
+          password: ${{ secrets.CAPROVER_PASSWORD }}
+          app: "ada-dev"

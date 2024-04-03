@@ -14,8 +14,9 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->web(append: [
             \App\Http\Middleware\HandleInertiaRequests::class,
             \Illuminate\Http\Middleware\AddLinkHeadersForPreloadedAssets::class,
+            \App\Http\Middleware\TrustProxies::class,
+            \App\Http\Middleware\TrustHosts::class,
         ]);
-
         //
     })
     ->withExceptions(function (Exceptions $exceptions) {

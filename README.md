@@ -1,66 +1,79 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h3 align="center">[TES] - Tiime Eating Survey</h3>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+---
+
+<p align="center"> TES est une application web pour faciliter le choix et la réservation du restaurant de midi chez Tiime Nancy.
+    <br> 
 </p>
 
-## About Laravel
+## 📝 Table of Contents
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- [📝 Table of Contents](#-table-of-contents)
+- [🧐 About ](#-about-)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+- [🎈 Usage ](#-usage-)
+- [🚀 Deployment ](#-deployment-)
+- [⛏️ Built Using ](#️-built-using-)
+- [✍️ Authors ](#️-authors-)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🧐 About <a name = "about"></a>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+L'application TES est une application web qui permet de faciliter le choix et la réservation du restaurant de midi chez Tiime Nancy. Chaque utilisateur peut créer une idée de lieu ou manger ou rejoindre une idée existante.
 
-## Learning Laravel
+### Prerequisites
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Vous devez posseder sur votre machine un environnement de développement PHP (Laravel 11) et NodeJS (React).
+Apres l'installation de ces environnements, vous pouvez cloner le projet et installer les dépendances.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Installing
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Pour installer les dépendances PHP, vous pouvez utiliser composer :
 
-## Laravel Sponsors
+```
+composer install
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Pour installer les dépendances NodeJS, vous pouvez utiliser npm :
 
-### Premium Partners
+```
+npm install
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Pour lancer l'application en dev, vous pouvez utiliser les commandes suivantes :
 
-## Contributing
+```
+php artisan serve // Pour lancer le serveur PHP
+npm run watch // Pour compiler les assets React
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Vous devez également posseder le fichier .env à la racine du projet avec les informations de connexion à la base de données.
+Retrouver un .env.example à la racine du projet et remplacer par vos informations.
 
-## Code of Conduct
+Un DockerFile est également disponible pour déployer l'application dans un container Docker.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```
+docker build -t tes .
+docker run -p 8000:80 tes
+```
 
-## Security Vulnerabilities
+## 🎈 Usage <a name="usage"></a>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+L'application est accessible via l'url suivante : [https://tes.pierre-perrin.dev](https://tes.pierre-perrin.dev)
 
-## License
+## 🚀 Deployment <a name = "deployment"></a>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Le déploiement de l'application se fait via un serveur web classique. Un workflow GitHub action passe a chaque release pour déployer l'application et vérifier son bon fonctionnement.
+Chaque release est taggée avec un numéro de version et créer une image docker récupérer ensuite par le serveur web.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [PostgresSQL](https://www.postgresql.org/) - Base de données
+- [Laravel](https://laravel.com/) - Backend Framework
+- [React](https://react.dev/) - Frontend Framework
+- [Shadcn/ui](https://ui.shadcn.com/) - Librairie de composants
+- [TailwindCSS](https://tailwindcss.com/) - Librairie CSS
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@protoxvga](https://github.com/protoxvga) - Idée et travail initial

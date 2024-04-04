@@ -1,9 +1,8 @@
 name: Deploy to CapRover
 
 on:
-  push:
-    branches:
-      - production
+  release:
+    types: [published]
 
 jobs:
   build_and_push_to_registry:

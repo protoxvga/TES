@@ -3,7 +3,7 @@ name: Deploy to CapRover
 on:
   push:
     branches:
-      - main
+      - production
 
 jobs:
   build_and_push_to_registry:
@@ -44,4 +44,4 @@ jobs:
           host: ${{ secrets.CAPROVER_HOST }}
           password: ${{ secrets.CAPROVER_PASSWORD }}
           app: "tes"
-          image: ${{ secrets.IMAGE_NAME }}:main
+          image: ${{ secrets.IMAGE_NAME }}

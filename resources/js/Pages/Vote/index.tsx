@@ -52,7 +52,7 @@ const FormSchema = z.object({
     .min(1, "Vous devez sélectionner une heure de départ."),
 });
 
-export default function Vote({ auth, restaurants, survey }: VotePageProps) {
+export default function Vote({ auth, restaurants }: VotePageProps) {
   const { errors } = usePage().props;
 
   useEffect(() => {
@@ -71,9 +71,7 @@ export default function Vote({ auth, restaurants, survey }: VotePageProps) {
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
     try {
-      const openedSurvey = survey.find((survey) => survey.is_open);
       router.post(route("vote.create"), {
-        survey_id: openedSurvey?.id,
         restaurant_id: data.restaurant.restaurantId,
         meeting_time: data.meetingTime,
       });

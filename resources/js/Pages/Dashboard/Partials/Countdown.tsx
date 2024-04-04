@@ -1,25 +1,29 @@
 import { useState, useEffect } from "react";
 
 const Countdown = () => {
-  const [time, setTime] = useState(calculateTimeUntilMidnight());
+  const [time, setTime] = useState(calculateTimeUntilTargetHour());
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setTime(calculateTimeUntilMidnight());
+      setTime(calculateTimeUntilTargetHour());
     }, 1000);
 
     return () => clearInterval(timer);
   }, []);
 
-  function calculateTimeUntilMidnight() {
+  function calculateTimeUntilTargetHour() {
     const now = new Date();
-    const midnight = new Date();
-    midnight.setHours(10, 30, 0, 0);
+    const targetOpeningTime = new Date();
+    const targetClosingTime = new Date();
+    targetOpeningTime.setHours(10, 30, 0, 0);
+    targetClosingTime.setHours(13, 0, 0, 0);
 
-    let difference = midnight.getTime() - now.getTime();
-    if (difference < 0) {
-      midnight.setDate(midnight.getDate() + 1);
-      difference = midnight.getTime() - now.getTime();
+    let difference = 0;
+    if (now < targetOpeningTime) {
+      difference = targetOpeningTime.getTime() - now.getTime();
+    } else if (now > targetClosingTime) {
+      difference =
+        24 * 60 * 60 * 1000 - (now.getTime() - targetClosingTime.getTime());
     }
 
     const hours = Math.floor(difference / (1000 * 60 * 60));

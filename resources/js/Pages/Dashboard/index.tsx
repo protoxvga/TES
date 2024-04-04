@@ -1,16 +1,22 @@
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
-import { Head, usePage } from "@inertiajs/react";
+import { Head, router, usePage } from "@inertiajs/react";
 import { PageProps } from "@/types";
 import Countdown from "./Partials/Countdown";
 import Survey from "./Partials/Survey";
 
 import { toast } from "sonner";
 import { useEffect } from "react";
+import { Button } from "@/Components/ui/button";
 
 export default function Dashboard({ auth, surveys }: PageProps) {
   const { errors, success } = usePage().props;
 
-  const openedSurvey = surveys.find((survey) => survey.is_open);
+  const openedSurvey = surveys[0] || undefined;
+
+  const currentDate = new Date();
+  const currentDayOfWeek = currentDate.getDay();
+  const currentHour = currentDate.getHours();
+  const currentMinute = currentDate.getMinutes();
 
   useEffect(() => {
     if (errors.message) {
@@ -20,11 +26,37 @@ export default function Dashboard({ auth, surveys }: PageProps) {
     }
   }, [errors, success]);
 
+  const isSurveyOpen = () => {
+    if (currentDayOfWeek >= 1 && currentDayOfWeek <= 5) {
+      if (currentHour === 9 && currentMinute >= 0) return true;
+      if (currentHour === 11 && currentMinute <= 30) return true;
+      if (currentHour === 12 && currentMinute <= 30) return true;
+    }
+    return false;
+  };
+
   return (
     <AuthenticatedLayout user={auth.user}>
       <Head title="Dashboard" />
-      {openedSurvey ? <Survey openedSurvey={openedSurvey} /> : null}
-      {!openedSurvey && <Countdown />}
+      {isSurveyOpen() && openedSurvey ? (
+        <Survey openedSurvey={openedSurvey} />
+      ) : isSurveyOpen() ? (
+        <div className="w-full h-[80vh] flex justify-center items-center flex-col">
+          <p className="text-lg text-center leading-8 text-gray-600 break-words">
+            Une petite faim ? Les votes sont ouverts !
+          </p>
+          <Button
+            className="w-[200px] mt-6"
+            onClick={() => router.get(route("vote"))}
+          >
+            J'ai une idée
+          </Button>
+        </div>
+      ) : (
+        <>
+          <Countdown />
+        </>
+      )}
     </AuthenticatedLayout>
   );
 }

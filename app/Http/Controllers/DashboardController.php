@@ -14,7 +14,7 @@ class DashboardController extends Controller
         $surveys = Survey::with(['votes' => function ($query) {
             $query->where('user_id', Auth::id());
         }])->with('votes.restaurant')->with('votes.users')->with('votes.creator')->get();
-        
+
         $successMessage = session('success');
 
         return Inertia::render('Dashboard/index', [

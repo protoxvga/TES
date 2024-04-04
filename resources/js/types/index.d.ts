@@ -56,5 +56,4 @@ export type VotePageProps<
     user: User;
   };
   restaurants: Restaurant[];
-  survey: Survey[];
 };

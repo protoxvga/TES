@@ -15,7 +15,7 @@ const Countdown = () => {
     const now = new Date();
     const targetOpeningTime = new Date();
     const targetClosingTime = new Date();
-    targetOpeningTime.setHours(10, 30, 0, 0);
+    targetOpeningTime.setHours(10, 0, 0, 0);
     targetClosingTime.setHours(13, 0, 0, 0);
 
     let difference = 0;

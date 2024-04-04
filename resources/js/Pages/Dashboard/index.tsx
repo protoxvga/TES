@@ -16,7 +16,6 @@ export default function Dashboard({ auth, surveys }: PageProps) {
   const currentDate = new Date();
   const currentDayOfWeek = currentDate.getDay();
   const currentHour = currentDate.getHours();
-  const currentMinute = currentDate.getMinutes();
 
   useEffect(() => {
     if (errors.message) {
@@ -28,12 +27,7 @@ export default function Dashboard({ auth, surveys }: PageProps) {
 
   const isSurveyOpen = () => {
     if (currentDayOfWeek >= 1 && currentDayOfWeek <= 5) {
-      if (
-        currentHour === 10 ||
-        currentHour === 11 ||
-        currentHour === 12 ||
-        currentHour === 13
-      )
+      if (currentHour === 10 || currentHour === 11 || currentHour === 12)
         return true;
     }
     return false;

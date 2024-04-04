@@ -1,32 +1,34 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Rapport de bug
+about: Créer un rapport pour nous aider à améliorer
 title: "[Bug] - "
 labels: bug
 assignees: protoxvga
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+_Français_
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**Décrivez le bug**
+Une description claire et concise de ce qu'est le bug.
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Pour reproduire**
+Étapes pour reproduire le comportement :
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+1. Allez sur la route '...'
+2. Cliquez sur '....'
+3. Faites défiler jusqu'à '....'
+4. Voir l'erreur
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Comportement attendu**
+Une description claire et concise de ce à quoi vous vous attendiez.
 
-**Desktop (please complete the following information):**
+**Captures d'écran**
+Si applicable, ajoutez des captures d'écran pour expliquer votre problème.
 
-- OS: [e.g. iOS]
-- Browser [e.g. chrome, safari]
+**Ordinateur (veuillez compléter les informations suivantes) :**
 
-**Additional context**
-Add any other context about the problem here.
+- OS: [e.g. Windows]
+- Navigateur [e.g. chrome, safari]
+
+**Contexte additionnel**
+Ajoutez tout autre contexte concernant le problème ici.

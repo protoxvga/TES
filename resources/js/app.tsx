@@ -7,10 +7,8 @@ import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 import { Toaster } from "./Components/ui/sonner";
 import { TooltipProvider } from "./Components/ui/tooltip";
 
-const appName = import.meta.env.APP_NAME;
-
 createInertiaApp({
-  title: (title) => `${title} - ${appName}`,
+  title: (title) => `${title}`,
   resolve: (name) =>
     resolvePageComponent(
       `./Pages/${name}.tsx`,

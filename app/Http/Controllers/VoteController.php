@@ -49,6 +49,7 @@ class VoteController extends Controller
         $vote->survey_id = $survey->id;
         $vote->restaurant_id = $validatedData['restaurant_id'];
         $vote->meeting_time = $request->input('meeting_time');
+        $vote->location = $request->input('location');
         $vote->user_id = auth()->id();
 
         $vote->save();

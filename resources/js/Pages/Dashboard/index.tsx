@@ -43,17 +43,17 @@ export default function Dashboard({ auth, surveys }: PageProps) {
           <p className="text-lg text-center leading-8 text-gray-600 break-words">
             Une petite faim ? Les votes sont ouverts !
           </p>
-          <Button
-            className="w-[200px] mt-6"
-            onClick={() => router.get(route("vote"))}
-          >
-            J'ai une idée
-          </Button>
+          <div className="flex gap-5 justify-center items-center">
+            <Button
+              className="w-[200px] mt-6"
+              onClick={() => router.get(route("vote"))}
+            >
+              J'ai une idée
+            </Button>
+          </div>
         </div>
       ) : (
-        <>
-          <Countdown />
-        </>
+        <Countdown />
       )}
     </AuthenticatedLayout>
   );

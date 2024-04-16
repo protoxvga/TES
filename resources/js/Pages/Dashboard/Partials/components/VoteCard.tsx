@@ -4,7 +4,7 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/Components/ui/tooltip";
-import { Location, User, Vote } from "@/types/models";
+import { Location, User, Vote } from "@/types";
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 import { router } from "@inertiajs/react";
 

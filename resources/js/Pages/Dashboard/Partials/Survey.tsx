@@ -1,4 +1,4 @@
-import { Survey as SurveyType, Vote } from "@/types/models";
+import { Survey as SurveyType, Vote } from "@/types";
 import VoteCard from "./components/VoteCard";
 import { router } from "@inertiajs/react";
 import { Button } from "@/Components/ui/button";

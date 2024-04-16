@@ -50,6 +50,7 @@ const FormSchema = z.object({
   meetingTime: z
     .string()
     .min(1, "Vous devez sélectionner une heure de départ."),
+  location: z.string().min(1, "Vous devez entrer un lieu."),
 });
 
 export default function Vote({ auth, restaurants }: VotePageProps) {
@@ -66,6 +67,7 @@ export default function Vote({ auth, restaurants }: VotePageProps) {
     defaultValues: {
       restaurant: { restaurantName: "", restaurantId: 0 },
       meetingTime: "",
+      location: "eat_in",
     },
   });
 
@@ -74,6 +76,7 @@ export default function Vote({ auth, restaurants }: VotePageProps) {
       router.post(route("vote.create"), {
         restaurant_id: data.restaurant.restaurantId,
         meeting_time: data.meetingTime,
+        location: data.location,
       });
     } catch (error) {
       console.error("Form submission error:", error);
@@ -92,7 +95,7 @@ export default function Vote({ auth, restaurants }: VotePageProps) {
             onSubmit={form.handleSubmit(onSubmit)}
             className="space-y-20 mt-10 flex flex-col"
           >
-            <div className="flex flex-col justify-between mt-10 md:flex-row gap-10">
+            <div className="flex flex-col justify-between mt-10 lg:flex-row gap-10">
               <FormField
                 control={form.control}
                 name="restaurant"
@@ -155,13 +158,44 @@ export default function Vote({ auth, restaurants }: VotePageProps) {
                   </FormItem>
                 )}
               />
+              <FormField
+                control={form.control}
+                name="location"
+                render={({ field }) => (
+                  <FormItem className="flex flex-col h-30 justify-center">
+                    <FormLabel>Lieu de restauration</FormLabel>
+                    <Select
+                      onValueChange={field.onChange}
+                      defaultValue={field.value}
+                    >
+                      <FormControl>
+                        <SelectTrigger className="w-[300px]">
+                          <SelectValue />
+                        </SelectTrigger>
+                      </FormControl>
+                      <SelectContent>
+                        <SelectItem value="eat_in">Sur place</SelectItem>
+                        <SelectItem value="takeway">À emporter</SelectItem>
+                        <SelectItem value="delivery">Livraison</SelectItem>
+                      </SelectContent>
+                    </Select>
+                    {form.formState.errors.meetingTime ? (
+                      <FormMessage />
+                    ) : (
+                      <FormDescription>
+                        Où souhaitez-vous manger ?
+                      </FormDescription>
+                    )}
+                  </FormItem>
+                )}
+              />
             </div>
             <div className="w-full justify-center flex">
               <Button
                 className="w-40 items-center justify-center"
                 type="submit"
               >
-                Envoyer
+                Créer
               </Button>
             </div>
           </form>

@@ -13,7 +13,8 @@ return new class extends Migration
             $table->foreignId('survey_id')->constrained()->onDelete('cascade');
             $table->foreignId('restaurant_id')->constrained()->onDelete('cascade');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
-            $table->time('meeting_time')->nullable();
+            $table->string('meeting_time')->nullable();
+            $table->enum('location', ['eat_in', 'takeway', 'delivery']);
             $table->timestamps();
         });
     }

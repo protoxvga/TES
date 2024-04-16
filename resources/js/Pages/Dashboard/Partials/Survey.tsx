@@ -1,4 +1,4 @@
-import { Survey as SurveyType } from "@/types";
+import { Survey as SurveyType, Vote } from "@/types/models";
 import VoteCard from "./components/VoteCard";
 import { router } from "@inertiajs/react";
 import { Button } from "@/Components/ui/button";
@@ -32,12 +32,12 @@ const Survey = ({ openedSurvey }: Props) => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-col space-y-10 w-full items-center">
+        <div className="flex flex-col space-y-6 w-full items-center">
           <ul
             role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-10"
+            className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-10"
           >
-            {openedSurvey.votes.map((vote) => (
+            {openedSurvey.votes.map((vote: Vote) => (
               <VoteCard key={vote.id} vote={vote} />
             ))}
           </ul>

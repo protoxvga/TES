@@ -33,6 +33,12 @@ class VoteController extends Controller
         $currentDate = now()->toDateString();
         $survey = Survey::whereDate('created_at', $currentDate)->first();
 
+        $validatedData = $request->validate([
+            'restaurant_id' => 'required|exists:restaurants,id',
+            'meeting_time' => 'required|date_format:H:i',
+            'location' => 'required|in:eat_in,takeway,delivery',
+        ]);
+
         if (!$survey) {
             $survey = Survey::create();
         }
@@ -41,18 +47,22 @@ class VoteController extends Controller
             return redirect()->route('dashboard')->withErrors(['message' => 'Vous ne pouvez pas créer de nouvelle proposition !']);
         }
 
-        $validatedData = $request->validate([
-            'restaurant_id' => 'required|exists:restaurants,id',
+        if (Vote::where('meeting_time', $validatedData['meeting_time'])
+            ->where('location', $validatedData['location'])
+            ->where('restaurant_id', $validatedData['restaurant_id'])
+            ->where('survey_id', $survey->id)
+            ->exists()) {
+            return redirect()->route('dashboard')->withErrors(['message' => 'Attention, une proposition identique existe déjà ! Rejoignez-la !']);
+        }
+
+        $vote = new Vote([
+            'restaurant_id' => $validatedData['restaurant_id'],
+            'meeting_time' => $validatedData['meeting_time'],
+            'location' => $validatedData['location'],
+            'user_id' => $userId,
         ]);
 
-        $vote = new Vote();
-        $vote->survey_id = $survey->id;
-        $vote->restaurant_id = $validatedData['restaurant_id'];
-        $vote->meeting_time = $request->input('meeting_time');
-        $vote->location = $request->input('location');
-        $vote->user_id = auth()->id();
-
-        $vote->save();
+        $survey->votes()->save($vote);
 
         return redirect()->route('dashboard')->with('success', 'Proposition créée !');
     }
@@ -66,12 +76,10 @@ class VoteController extends Controller
             return redirect()->route('dashboard')->withErrors(['message' => 'Vous avez deja créer une proposition pour ce sondage !']);
         }
 
-        // Check if the user is the creator of the vote
         if ($vote->user_id === $userId) {
             return redirect()->back()->withErrors(['message' => 'Vous ne pouvez pas rejoindre votre propre proposition !']);
         }
 
-        // Check if the user has already joined any votes
         if ($vote->survey->votes()->whereHas('users', function ($query) use ($userId) {
             $query->where('user_id', $userId);
         })->exists()) {

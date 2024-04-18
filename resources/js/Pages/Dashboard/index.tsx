@@ -29,8 +29,7 @@ export default function Dashboard({ auth, survey }: PageProps) {
 
   const isSurveyOpen = () => {
     if (currentDayOfWeek >= 1 && currentDayOfWeek <= 5) {
-      if (currentHour === 10 || currentHour === 11 || currentHour === 12)
-        return true;
+      if ([9, 10, 11, 12].includes(currentHour)) return true;
     }
     return false;
   };

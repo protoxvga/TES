@@ -8,10 +8,12 @@ import { toast } from "sonner";
 import { useEffect } from "react";
 import { Button } from "@/Components/ui/button";
 
-export default function Dashboard({ auth, surveys }: PageProps) {
+export default function Dashboard({ auth, survey }: PageProps) {
   const { errors, success } = usePage().props;
 
-  const openedSurvey = surveys[0] || undefined;
+  const openedSurvey = survey || undefined;
+
+  console.log(openedSurvey);
 
   const currentDate = new Date();
   const currentDayOfWeek = currentDate.getDay();

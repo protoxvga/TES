@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Survey;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Inertia\Inertia;
 use Inertia\Response;
@@ -11,14 +12,23 @@ class DashboardController extends Controller
 {
     public function render(): Response
     {
-        $surveys = Survey::with(['votes' => function ($query) {
+        $startOfDay = Carbon::now()->startOfDay();
+        $endOfDay = Carbon::now()->endOfDay();
+
+        $survey = Survey::with(['votes' => function ($query) {
             $query->where('user_id', Auth::id());
-        }])->with('votes.restaurant')->with('votes.users')->with('votes.creator')->get();
+        }])
+        ->with('votes.restaurant')
+        ->with('votes.users')
+        ->with('votes.creator')
+        ->whereBetween('created_at', [$startOfDay, $endOfDay])
+        ->latest()
+        ->first();
 
         $successMessage = session('success');
 
         return Inertia::render('Dashboard/index', [
-            'surveys' => $surveys,
+            'survey' => $survey,
             'success' => $successMessage,
         ]);
     }

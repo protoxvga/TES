@@ -40,7 +40,7 @@ export interface Survey {
   is_open: boolean;
   created_at: string;
   updated_at: string;
-  votes: any[];
+  votes: Vote[];
 }
 
 export type PageProps<
@@ -49,7 +49,7 @@ export type PageProps<
   auth: {
     user: User;
   };
-  surveys: Survey[];
+  survey: Survey;
 };
 
 export type VotePageProps<

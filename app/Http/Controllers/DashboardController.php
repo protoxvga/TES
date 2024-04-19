@@ -19,8 +19,8 @@ class DashboardController extends Controller
             $query->where('user_id', Auth::id());
         }])
         ->with('votes.restaurant')
-        ->with('votes.users')
-        ->with('votes.creator')
+        ->with('votes.users:id,firstname,lastname')
+        ->with('votes.creator:id,firstname,lastname')
         ->whereBetween('created_at', [$startOfDay, $endOfDay])
         ->latest()
         ->first();

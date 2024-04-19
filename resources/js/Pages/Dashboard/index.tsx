@@ -13,8 +13,6 @@ export default function Dashboard({ auth, survey }: PageProps) {
 
   const openedSurvey = survey || undefined;
 
-  console.log(openedSurvey);
-
   const currentDate = new Date();
   const currentDayOfWeek = currentDate.getDay();
   const currentHour = currentDate.getHours();

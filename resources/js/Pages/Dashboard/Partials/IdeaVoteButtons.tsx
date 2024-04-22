@@ -40,7 +40,7 @@ const IdeaVoteButtons = ({ openedSurvey }: { openedSurvey: Survey }) => {
             <AlertDialogContent>
               <AlertDialogHeader>
                 <AlertDialogTitle>
-                  Êtes-vous sûr de créer un vote ?
+                  Êtes-vous sûr de créer ce vote ?
                 </AlertDialogTitle>
                 <AlertDialogDescription>
                   Cette action est irréversible, vous ne pourrez pas annuler

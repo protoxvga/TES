@@ -47,6 +47,12 @@ class VoteController extends Controller
             return redirect()->route('dashboard')->withErrors(['message' => 'Vous ne pouvez pas créer de nouvelle proposition !']);
         }
 
+        if ($survey->votes()->whereHas('users', function ($query) use ($userId) {
+            $query->where('user_id', $userId);
+        })->exists()) {
+            return redirect()->back()->withErrors(['message' => 'Vous avez déjà rejoint une proposition pour ce sondage !']);
+        }
+
         if (Vote::where('meeting_time', $validatedData['meeting_time'])
             ->where('location', $validatedData['location'])
             ->where('restaurant_id', $validatedData['restaurant_id'])

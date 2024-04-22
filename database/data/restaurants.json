@@ -1,5 +1,17 @@
 [
   {
+    "name": "Tupperware",
+    "cuisine": null,
+    "type": "fast_food",
+    "geo_point_2d": {
+      "lon": 6.17657,
+      "lat": 48.688511
+    },
+    "opening_hours": null,
+    "website": null,
+    "phone": null
+  },
+  {
     "name": "26 Corner",
     "cuisine": ["sandwich"],
     "type": "fast_food",

@@ -12,6 +12,9 @@ export default function Dashboard({ auth, survey }: PageProps) {
   const { errors, success } = usePage().props;
 
   const openedSurvey = survey || undefined;
+  const isTupperware = openedSurvey?.votes.some(
+    (vote) => vote.restaurant.name === "Tupperware"
+  );
 
   const currentDate = new Date();
   const currentDayOfWeek = currentDate.getDay();
@@ -49,6 +52,21 @@ export default function Dashboard({ auth, survey }: PageProps) {
             >
               J'ai une idée
             </Button>
+            {!isTupperware && (
+              <Button
+                className="w-[200px] mt-6"
+                variant="secondary"
+                onClick={() =>
+                  router.post(route("vote.create"), {
+                    restaurant_id: 1,
+                    meeting_time: "12:00",
+                    location: "eat_in",
+                  })
+                }
+              >
+                J'ai un tupperware
+              </Button>
+            )}
           </div>
         </div>
       ) : (

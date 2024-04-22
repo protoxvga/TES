@@ -15,13 +15,13 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'render'])->name('dashboard');
 });
 
-Route::middleware('auth')->group(function () {
+Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::middleware(['auth', CheckSurveyVote::class])->group(function () {
+Route::middleware(['auth', 'verified', CheckSurveyVote::class])->group(function () {
     Route::get('/vote', [VoteController::class, 'render'])->name('vote');
     Route::post('/vote', [VoteController::class, 'create'])->name('vote.create');
     Route::post('/vote/{voteId}/join', [VoteController::class, 'join'])->name('vote.join');

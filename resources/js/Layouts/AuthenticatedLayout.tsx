@@ -1,8 +1,7 @@
 import { useState, PropsWithChildren, ReactNode } from "react";
 import Dropdown from "@/Components/Dropdown";
 import NavLink from "@/Components/NavLink";
-import ResponsiveNavLink from "@/Components/ResponsiveNavLink";
-import { Survey, User } from "@/types";
+import { User } from "@/types";
 
 export default function Authenticated({
   user,
@@ -11,9 +10,6 @@ export default function Authenticated({
   user: User;
   header?: ReactNode;
 }>) {
-  const [showingNavigationDropdown, setShowingNavigationDropdown] =
-    useState(false);
-
   return (
     <div className="min-h-screen">
       <nav className="bg-white  border-b border-gray-100">

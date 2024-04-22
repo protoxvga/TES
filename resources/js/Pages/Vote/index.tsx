@@ -104,7 +104,9 @@ export default function Vote({ auth, restaurants }: VotePageProps) {
                     <FormLabel>Restaurant</FormLabel>
                     <FormControl>
                       <RestaurantsCombobox
-                        restaurants={restaurants}
+                        restaurants={restaurants.filter(
+                          (restaurant) => restaurant.name != "Tupperware"
+                        )}
                         value={field.value}
                         form={form}
                       />

@@ -48,7 +48,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN composer install
 
 # Install NPM dependencies
-RUN npm install
+RUN npm ci
 
 # Build frontend assets
 RUN npm run build

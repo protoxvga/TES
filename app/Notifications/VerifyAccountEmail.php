@@ -3,7 +3,7 @@ namespace App\Notifications;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Auth\Notifications\VerifyEmail as VerifyEmailBase;
 
-class VerifyEmail extends VerifyEmailBase
+class VerifyAccountEmail extends VerifyEmailBase
 {
     public function toMail($notifiable)
     {

@@ -5,7 +5,8 @@ import InputError from "@/Components/InputError";
 import InputLabel from "@/Components/InputLabel";
 import { Button } from "@/Components/ui/button";
 import TextInput from "@/Components/TextInput";
-import { Head, Link, useForm } from "@inertiajs/react";
+import { Head, useForm } from "@inertiajs/react";
+import { toast } from "sonner";
 
 export default function Login({
   status,
@@ -26,6 +27,15 @@ export default function Login({
     };
   }, []);
 
+  useEffect(() => {
+    if (status === "Your password has been reset.") {
+      toast("Mot de passe réinitialisé", {
+        description:
+          "Votre mot de passe a été réinitialisé. Vous pouvez maintenant vous connecter.",
+      });
+    }
+  }, [status]);
+
   const submit: FormEventHandler = (e) => {
     e.preventDefault();
 
@@ -36,14 +46,9 @@ export default function Login({
     <GuestLayout>
       <Head title="Log in" />
 
-      {status && (
-        <div className="mb-4 font-medium text-sm text-green-600">{status}</div>
-      )}
-
       <form onSubmit={submit}>
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-6 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm flex flex-col items-center">
-            {/* <ApplicationLogo /> */}
             <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
               Se connecter
             </h2>
@@ -70,6 +75,14 @@ export default function Login({
               <div>
                 <div className="flex w-full items-center justify-between">
                   <InputLabel htmlFor="password" value="Mot de passe" />
+                  {canResetPassword && (
+                    <a
+                      href={route("password.request")}
+                      className="text-sm font-medium leading-6 text-orange-600 hover:text-orange-500"
+                    >
+                      Mot de passe oublié ?
+                    </a>
+                  )}
                 </div>
 
                 <TextInput

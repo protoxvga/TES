@@ -29,31 +29,37 @@ export default function ForgotPassword({ status }: { status?: string }) {
   return (
     <GuestLayout>
       <Head title="Forgot Password" />
+      <div className="flex justify-center">
+        <div className="px-4 sm:p-6 w-[500px]">
+          <h3 className="text-base font-semibold leading-6 text-gray-900">
+            Réinitialiser le mot de passe
+          </h3>
+          <div className="mt-2 max-w-3xl text-sm text-gray-500">
+            <p>
+              Entrez votre adresse e-mail et nous vous enverrons un lien pour
+              réinitialiser votre mot de passe.
+            </p>
+          </div>
+          <form onSubmit={submit} className="mt-5 sm:flex sm:items-start gap-4">
+            <div className="w-full sm:max-w-xs">
+              <TextInput
+                id="email"
+                type="email"
+                name="email"
+                value={data.email}
+                className="block w-full"
+                isFocused={true}
+                onChange={(e) => setData("email", e.target.value)}
+              />
 
-      <div className="mb-4 text-sm text-gray-600">
-        Mot de passe oublié? Pas de problème. Entrez votre adresse e-mail et
-        nous vous enverrons un lien de réinitialisation de mot de passe
-      </div>
-
-      <form onSubmit={submit}>
-        <TextInput
-          id="email"
-          type="email"
-          name="email"
-          value={data.email}
-          className="mt-1 block w-full"
-          isFocused={true}
-          onChange={(e) => setData("email", e.target.value)}
-        />
-
-        <InputError message={errors.email} className="mt-2" />
-
-        <div className="flex items-center justify-end mt-4">
-          <Button className="ms-4" disabled={processing}>
-            Envoyer le lien de réinitialisation
-          </Button>
+              <InputError message={errors.email} className="mt-2" />
+            </div>
+            <Button className="mt-4 sm:mt-0 block" disabled={processing}>
+              Réinitialiser
+            </Button>
+          </form>
         </div>
-      </form>
+      </div>
     </GuestLayout>
   );
 }

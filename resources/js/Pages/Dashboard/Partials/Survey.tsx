@@ -4,9 +4,10 @@ import IdeaVoteButtons from "./IdeaVoteButtons";
 
 interface Props {
   openedSurvey: SurveyType;
+  canVote: boolean;
 }
 
-const Survey = ({ openedSurvey }: Props) => {
+const Survey = ({ openedSurvey, canVote }: Props) => {
   return (
     <div
       className={`flex items-center justify-center p-10 w-full ${
@@ -19,10 +20,10 @@ const Survey = ({ openedSurvey }: Props) => {
           className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-10"
         >
           {openedSurvey.votes.map((vote: Vote) => (
-            <VoteCard key={vote.id} vote={vote} />
+            <VoteCard key={vote.id} vote={vote} canVote={canVote} />
           ))}
         </ul>
-        <IdeaVoteButtons openedSurvey={openedSurvey} />
+        {canVote && <IdeaVoteButtons openedSurvey={openedSurvey} />}
       </div>
     </div>
   );

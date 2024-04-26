@@ -58,7 +58,9 @@ export default function Vote({ auth, restaurants }: VotePageProps) {
 
   useEffect(() => {
     if (errors.message) {
-      toast(errors.message);
+      toast("Erreur", {
+        description: errors.message,
+      });
     }
   }, [errors]);
 

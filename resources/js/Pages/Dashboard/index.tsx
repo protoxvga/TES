@@ -8,7 +8,7 @@ import { toast } from "sonner";
 import { useEffect } from "react";
 import IdeaVoteButtons from "./Partials/IdeaVoteButtons";
 
-export default function Dashboard({ auth, survey }: PageProps) {
+export default function Dashboard({ auth, survey, canVote }: PageProps) {
   const { errors, success } = usePage().props;
 
   const openedSurvey = survey || undefined;
@@ -19,15 +19,19 @@ export default function Dashboard({ auth, survey }: PageProps) {
 
   useEffect(() => {
     if (errors.message) {
-      toast(errors.message);
+      toast("Erreur", {
+        description: errors.message,
+      });
     } else if (success && typeof success === "string") {
-      toast(success);
+      toast("Succès", {
+        description: success,
+      });
     }
   }, [errors, success]);
 
   const isSurveyOpen = () => {
     if (currentDayOfWeek >= 1 && currentDayOfWeek <= 5) {
-      if ([9, 10, 11, 12].includes(currentHour)) return true;
+      if ([9, 10, 11, 12, 13].includes(currentHour)) return true;
     }
     return false;
   };
@@ -36,8 +40,8 @@ export default function Dashboard({ auth, survey }: PageProps) {
     <AuthenticatedLayout user={auth.user}>
       <Head title="Dashboard" />
       {isSurveyOpen() && openedSurvey ? (
-        <Survey openedSurvey={openedSurvey} />
-      ) : isSurveyOpen() ? (
+        <Survey canVote={canVote} openedSurvey={openedSurvey} />
+      ) : isSurveyOpen() && canVote ? (
         <IdeaVoteButtons openedSurvey={openedSurvey} />
       ) : (
         <Countdown />

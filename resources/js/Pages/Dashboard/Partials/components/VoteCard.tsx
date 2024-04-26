@@ -10,6 +10,7 @@ import { router } from "@inertiajs/react";
 
 interface Props {
   vote: Vote;
+  canVote: boolean;
 }
 
 interface LocationTemplate {
@@ -28,7 +29,7 @@ const locationTextTemplate: LocationTemplate = {
   eat_in: "Sur place",
 };
 
-const VoteCard = ({ vote }: Props) => {
+const VoteCard = ({ vote, canVote }: Props) => {
   const location = locationTextTemplate[vote.location as Location];
 
   const join = () => {
@@ -89,7 +90,11 @@ const VoteCard = ({ vote }: Props) => {
         </div>
       </div>
       <div className="flex w-full justify-center p-2">
-        <Button className="h-8 w-full" onClick={() => join()}>
+        <Button
+          disabled={!canVote}
+          className="h-8 w-full"
+          onClick={() => join()}
+        >
           Rejoindre
         </Button>
       </div>

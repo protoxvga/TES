@@ -23,7 +23,7 @@ const Countdown = () => {
       difference = targetOpeningTime.getTime() - now.getTime();
     } else if (now > targetClosingTime) {
       difference =
-        24 * 60 * 60 * 1000 - (now.getTime() - targetClosingTime.getTime());
+        24 * 60 * 60 * 1000 - (now.getTime() - targetOpeningTime.getTime());
     }
 
     const hours = Math.floor(difference / (1000 * 60 * 60));

@@ -11,7 +11,7 @@ class CheckSurveyVote
     {
         $now = now();
         if ($now->isWeekday()) {
-            if ($now->hour >= 9 && $now->hour < 13) {
+            if ($now->hour >= 9 && $now->hour < 14) {
                 return $next($request);
             }
         }

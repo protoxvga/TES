@@ -50,6 +50,7 @@ export type PageProps<
     user: User;
   };
   survey: Survey;
+  canVote: boolean;
 };
 
 export type VotePageProps<

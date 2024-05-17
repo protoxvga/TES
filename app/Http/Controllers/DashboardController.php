@@ -43,7 +43,11 @@ class DashboardController extends Controller
         ->latest()
         ->first();
 
-        $canVote = $this->canVote($survey, Auth::id());
+        if ($survey) {
+            $canVote = $this->canVote($survey, Auth::id());
+        } else {
+            $canVote = true;
+        }
 
         $successMessage = session('success');
 
